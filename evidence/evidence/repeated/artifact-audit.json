@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "frozen_source_files_verified": 8,
+  "worker_cases": 5,
+  "measured_requests": 11,
+  "saved_output_arrays": 81,
+  "regional_and_context_output_values": 213336,
+  "embedded_view_values": 767228,
+  "completed_measured_neural_tiles": 435,
+  "peak_worker_RSS_bytes": 6688260096,
+  "prediction_file_bytes": 1818564,
+  "total_worker_seconds_including_interruption": 1205.649799415,
+  "earlier_E079_cases_reproduced": [
+    {
+      "old_case": 0,
+      "new_case": 0,
+      "all_three_repeats_equal": true
+    },
+    {
+      "old_case": 1,
+      "new_case": 1,
+      "all_three_repeats_equal": true
+    },
+    {
+      "old_case": 4,
+      "new_case": 3,
+      "all_three_repeats_equal": true
+    }
+  ],
+  "completed_case_0_reused_byte_for_byte": true,
+  "scope": "Independent frozen-source/output/resource/view-array audit. Stored timing arithmetic is checked separately by the standard-library verifier; no ink accuracy claim."
+}

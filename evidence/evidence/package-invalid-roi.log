@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/mcglone/vesuvius-challenge/submissions/hecate-context-preserving-roi-20261026/src/hecate_roi.py", line 199, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/mcglone/vesuvius-challenge/submissions/hecate-context-preserving-roi-20261026/src/hecate_roi.py", line 165, in main
+    schedule(volume.shape,patch,args.roi,args.stride,args.batch_size)  # Validate before output allocation.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mcglone/vesuvius-challenge/submissions/hecate-context-preserving-roi-20261026/src/hecate_roi.py", line 37, in schedule
+    raise ValueError('Invalid ROI, depth, patch or batch size')
+ValueError: Invalid ROI, depth, patch or batch size

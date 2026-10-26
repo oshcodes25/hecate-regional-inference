@@ -1,0 +1,173 @@
+{
+  "completed_repeats": 3,
+  "rows": [
+    {
+      "repeat": 0,
+      "method": "full",
+      "region": null,
+      "roi_xyxy": null,
+      "context_xyxy": null,
+      "seconds": 121.2131922498811,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 2097152,
+      "output": "0-full.npy",
+      "output_sha256": "a601f528333c48502912505ccc3bbc82869ebf74e0984bd7a8dd8ac66f65a6cc"
+    },
+    {
+      "repeat": 0,
+      "method": "regional",
+      "region": "centre",
+      "roi_xyxy": [
+        144,
+        144,
+        208,
+        208
+      ],
+      "context_xyxy": null,
+      "seconds": 25.456218666862696,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 32768,
+      "output": "0-regional-centre.npy",
+      "output_sha256": "5d4bca11a71fcb16c177585d50060daa8eec15973f74c9043866326ff1948ebd",
+      "different_values": 0
+    },
+    {
+      "repeat": 0,
+      "method": "halo",
+      "region": "centre",
+      "roi_xyxy": [
+        144,
+        144,
+        208,
+        208
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "seconds": 26.381414167117327,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 1179648,
+      "output": "0-halo-centre.npy",
+      "output_sha256": "5d4bca11a71fcb16c177585d50060daa8eec15973f74c9043866326ff1948ebd",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "regional",
+      "region": "centre",
+      "roi_xyxy": [
+        144,
+        144,
+        208,
+        208
+      ],
+      "context_xyxy": null,
+      "seconds": 25.956958666909486,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 32768,
+      "output": "1-regional-centre.npy",
+      "output_sha256": "5d4bca11a71fcb16c177585d50060daa8eec15973f74c9043866326ff1948ebd",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "halo",
+      "region": "centre",
+      "roi_xyxy": [
+        144,
+        144,
+        208,
+        208
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "seconds": 26.433343457989395,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 1179648,
+      "output": "1-halo-centre.npy",
+      "output_sha256": "5d4bca11a71fcb16c177585d50060daa8eec15973f74c9043866326ff1948ebd",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "full",
+      "region": null,
+      "roi_xyxy": null,
+      "context_xyxy": null,
+      "seconds": 61.849925292190164,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 2097152,
+      "output": "1-full.npy",
+      "output_sha256": "a601f528333c48502912505ccc3bbc82869ebf74e0984bd7a8dd8ac66f65a6cc"
+    },
+    {
+      "repeat": 2,
+      "method": "halo",
+      "region": "centre",
+      "roi_xyxy": [
+        144,
+        144,
+        208,
+        208
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "seconds": 32.16487475018948,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 1179648,
+      "output": "2-halo-centre.npy",
+      "output_sha256": "5d4bca11a71fcb16c177585d50060daa8eec15973f74c9043866326ff1948ebd",
+      "different_values": 0
+    },
+    {
+      "repeat": 2,
+      "method": "full",
+      "region": null,
+      "roi_xyxy": null,
+      "context_xyxy": null,
+      "seconds": 65.69928770908155,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 2097152,
+      "output": "2-full.npy",
+      "output_sha256": "a601f528333c48502912505ccc3bbc82869ebf74e0984bd7a8dd8ac66f65a6cc"
+    },
+    {
+      "repeat": 2,
+      "method": "regional",
+      "region": "centre",
+      "roi_xyxy": [
+        144,
+        144,
+        208,
+        208
+      ],
+      "context_xyxy": null,
+      "seconds": 27.086111292010173,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 32768,
+      "output": "2-regional-centre.npy",
+      "output_sha256": "5d4bca11a71fcb16c177585d50060daa8eec15973f74c9043866326ff1948ebd",
+      "different_values": 0
+    }
+  ]
+}

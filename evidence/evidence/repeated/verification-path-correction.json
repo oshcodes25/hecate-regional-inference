@@ -1,0 +1,6 @@
+{
+  "issue": "Direct verifier tests used macOS /var temporary paths, while safe_path resolved them to /private/var. check_case did not canonicalize its root before comparing paths.",
+  "fix": "Resolve root at check_case entry, matching the already-canonical main verification path.",
+  "science_changed": false,
+  "actual_package_verification": "Already passed before this correction; no model outputs or scientific settings changed."
+}

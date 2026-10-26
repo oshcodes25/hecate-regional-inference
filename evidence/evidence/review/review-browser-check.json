@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "offline": true,
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "cases": 2,
+    "title": "Hecate regional reader — start here"
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "interactions": [
+    {
+      "sample": 0,
+      "mode": "full",
+      "ceiling": 255,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 0,
+      "mode": "full",
+      "ceiling": 32,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 0,
+      "mode": "naive",
+      "ceiling": 255,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 0,
+      "mode": "naive",
+      "ceiling": 32,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 0,
+      "mode": "regional",
+      "ceiling": 255,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 0,
+      "mode": "regional",
+      "ceiling": 32,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 1,
+      "mode": "full",
+      "ceiling": 255,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 1,
+      "mode": "full",
+      "ceiling": 32,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 1,
+      "mode": "naive",
+      "ceiling": 255,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 1,
+      "mode": "naive",
+      "ceiling": 32,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 1,
+      "mode": "regional",
+      "ceiling": 255,
+      "all4096PixelsPerPanelChecked": true
+    },
+    {
+      "sample": 1,
+      "mode": "regional",
+      "ceiling": 32,
+      "all4096PixelsPerPanelChecked": true
+    }
+  ],
+  "exceptions": []
+}

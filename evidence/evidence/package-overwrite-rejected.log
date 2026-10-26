@@ -1,0 +1,7 @@
+usage: hecate_roi.py [-h] --runtime RUNTIME [--checkpoint CHECKPOINT] --input
+                     INPUT [--array ARRAY] --spacing-um {2.4,9.6} --roi X0 Y0
+                     X1 Y1 [--output OUTPUT] [--output-3d OUTPUT_3D]
+                     [--device DEVICE] [--threads THREADS] [--stride STRIDE]
+                     [--batch-size BATCH_SIZE] [--precision {fp32,bf16}]
+                     [--reverse] [--dry-run]
+hecate_roi.py: error: Choose new output paths with supported suffixes; no overwrite

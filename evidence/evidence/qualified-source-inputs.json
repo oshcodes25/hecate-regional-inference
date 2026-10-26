@@ -1,0 +1,501 @@
+{
+  "data_read_plan_sha256": "67b93d40012d7c1cdd20aa25177704d529241534d562d052ef0f9d23dd1cf017",
+  "regions": [
+    {
+      "id": "pherc0841-development",
+      "region": {
+        "id": "pherc0841-development",
+        "sample": "PHerc0841",
+        "role": "exposed_development_only",
+        "selection": {
+          "xywh_in_old_crop": [
+            192,
+            160,
+            128,
+            128
+          ],
+          "centre_distance_squared": 1024,
+          "coarse_selection_positive_pixels": 962,
+          "coarse_selection_negative_pixels": 8254,
+          "coarse_selection_supervised_pixels": 9216,
+          "eligible_candidates": 52
+        },
+        "xywh_level0": [
+          13056,
+          8832,
+          512,
+          512
+        ],
+        "source_sampling_um_zyx": [
+          2.403,
+          2.403,
+          2.403
+        ],
+        "nominal_surface_source_index": 54.0,
+        "depth": 109,
+        "source_region": {
+          "id": "pherc0841-development",
+          "role": "development",
+          "sample": "PHerc0841",
+          "segment": "20260220213127-w00",
+          "volume_id": "20260319124803",
+          "surface_path": "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/",
+          "target_mesh_prefix": "PHerc0841/segments/20260220213127-w00/mesh/20260220213127-on-20260319124803-2.403um.tifxyz/",
+          "source_shape_zyx_level2": [
+            109,
+            4115,
+            4640
+          ],
+          "source_sampling_um_zyx": [
+            2.403,
+            9.612,
+            9.612
+          ],
+          "pooled_sampling_um_zyx": [
+            9.612,
+            9.612,
+            9.612
+          ],
+          "physical_width_height_mm": [
+            4.921344,
+            4.921344
+          ],
+          "evaluation_margin": 64,
+          "source_z_slice": [
+            1,
+            109
+          ],
+          "nominal_surface_source_index": 54.0,
+          "label_sha256": {
+            "inklabels": "1fcd99b262b02e85f004f2c17d1cda0d7dc6270f8f8090c8f69ef2478b3b337a",
+            "supervision": "851632cb115db01a5ab6f9641b8d654f22b0ab98ed42d12879a19539d9f5c0b2"
+          },
+          "xywh_level2": [
+            3072,
+            2048,
+            512,
+            512
+          ],
+          "order_index": 148,
+          "coverage": 1.0,
+          "supervised_pixels": 147456,
+          "ink_pixels": 47366,
+          "background_pixels": 100090,
+          "surface_xyz_bbox": [
+            [
+              13012.11328125,
+              15525.052734375,
+              6013.37451171875
+            ],
+            [
+              15048.8369140625,
+              17223.0703125,
+              8357.2236328125
+            ]
+          ],
+          "sampled_xyz_bbox": [
+            [
+              12956.11328125,
+              15469.052734375,
+              5957.37451171875
+            ],
+            [
+              15104.8369140625,
+              17279.0703125,
+              8413.2236328125
+            ]
+          ],
+          "mesh_grid_xy_bounds": [
+            614,
+            409,
+            718,
+            514
+          ]
+        },
+        "chunk_keys": [
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/69/102",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/69/103",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/69/104",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/69/105",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/70/102",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/70/103",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/70/104",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/70/105",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/71/102",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/71/103",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/71/104",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/71/105",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/72/102",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/72/103",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/72/104",
+          "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/0/0/72/105"
+        ],
+        "labels": [
+          {
+            "sample": "PHerc0841",
+            "kind": "inklabels",
+            "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/ink-labels/2.403um-volume-20260319124803/20260918/inklabels.zarr/0/c/0/0",
+            "bytes": 63141,
+            "etag": "\"104039294b09350a3408af52372a8f2c\""
+          },
+          {
+            "sample": "PHerc0841",
+            "kind": "supervision",
+            "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0841/segments/20260220213127-w00/ink-labels/2.403um-volume-20260319124803/20260918/supervision.zarr/0/c/0/0",
+            "bytes": 58715,
+            "etag": "\"e0838b254f49411281e2ef606904c6c0\""
+          }
+        ]
+      },
+      "files": {
+        "ct-source": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0841-development/ct-source.npy",
+          "sha256": "fd5de57d473e80a0beadf40f59c685cc070bef82efa7d3bc1d68e0478ed7bbb0",
+          "bytes": 28573824
+        },
+        "inklabels": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0841-development/inklabels.npy",
+          "sha256": "6bee88feaf1c7ef204dd59d57d7d6c12e7736ed4c02423dcd00f4749a6916998",
+          "bytes": 262272
+        },
+        "supervision": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0841-development/supervision.npy",
+          "sha256": "280fbcdbbc1b9cf7f4873abf7758831d513cc3003d750f7e7fbcab7de81461fc",
+          "bytes": 262272
+        }
+      }
+    },
+    {
+      "id": "pherc0009b-final-test",
+      "region": {
+        "id": "pherc0009b-final-test",
+        "sample": "PHerc0009B",
+        "role": "exposed_development_only",
+        "selection": {
+          "xywh_in_old_crop": [
+            192,
+            192,
+            128,
+            128
+          ],
+          "centre_distance_squared": 0,
+          "coarse_selection_positive_pixels": 6840,
+          "coarse_selection_negative_pixels": 2375,
+          "coarse_selection_supervised_pixels": 9215,
+          "eligible_candidates": 63
+        },
+        "xywh_level0": [
+          11008,
+          22272,
+          512,
+          512
+        ],
+        "source_sampling_um_zyx": [
+          2.401,
+          2.401,
+          2.401
+        ],
+        "nominal_surface_source_index": 54.0,
+        "depth": 109,
+        "source_region": {
+          "id": "pherc0009b-final-test",
+          "role": "final_test",
+          "sample": "PHerc0009B",
+          "segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+          "volume_id": "20250820154339",
+          "surface_path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/",
+          "target_mesh_prefix": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz/",
+          "source_shape_zyx_level2": [
+            109,
+            6340,
+            5130
+          ],
+          "source_sampling_um_zyx": [
+            2.401,
+            9.604,
+            9.604
+          ],
+          "pooled_sampling_um_zyx": [
+            9.604,
+            9.604,
+            9.604
+          ],
+          "physical_width_height_mm": [
+            4.917248,
+            4.917248
+          ],
+          "evaluation_margin": 64,
+          "source_z_slice": [
+            1,
+            109
+          ],
+          "nominal_surface_source_index": 54.0,
+          "label_sha256": {
+            "inklabels": "8d6cd7b8407ed41b68358a2a0e6628d8fa29cf3e8ef0c6e505dc8adeb77f6ca9",
+            "supervision": "fb8a4c48acfb8eaef83b2574ecec0d23c99261324c1864fb28d0881c2b1f587f"
+          },
+          "xywh_level2": [
+            2560,
+            5376,
+            512,
+            512
+          ],
+          "order_index": 409,
+          "coverage": 1.0,
+          "supervised_pixels": 147456,
+          "ink_pixels": 53234,
+          "background_pixels": 94222,
+          "surface_xyz_bbox": [
+            [
+              14387.5576171875,
+              15746.3642578125,
+              26455.48828125
+            ],
+            [
+              16391.224609375,
+              16506.416015625,
+              28575.734375
+            ]
+          ],
+          "sampled_xyz_bbox": [
+            [
+              14331.5576171875,
+              15690.3642578125,
+              26399.48828125
+            ],
+            [
+              16447.224609375,
+              16562.416015625,
+              28631.734375
+            ]
+          ],
+          "mesh_grid_xy_bounds": [
+            512,
+            1075,
+            616,
+            1179
+          ]
+        },
+        "chunk_keys": [
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/86",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/87",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/88",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/89",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/86",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/87",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/88",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/89",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/86",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/87",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/88",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/89",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/86",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/87",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/88",
+          "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/89"
+        ],
+        "labels": [
+          {
+            "sample": "PHerc0009B",
+            "kind": "inklabels",
+            "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/inklabels.zarr/0/c/0/0",
+            "bytes": 104546,
+            "etag": "\"40826bf4e632880592c3b4338dd81031\""
+          },
+          {
+            "sample": "PHerc0009B",
+            "kind": "supervision",
+            "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/supervision.zarr/0/c/0/0",
+            "bytes": 64745,
+            "etag": "\"23eddf519d0420c55286cdaa1df47f2f\""
+          }
+        ]
+      },
+      "files": {
+        "ct-source": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0009b-final-test/ct-source.npy",
+          "sha256": "035506cf27de475860d5d383de169f5de8f35ec31a14ca7c6323e3d1e40a146f",
+          "bytes": 28573824
+        },
+        "inklabels": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0009b-final-test/inklabels.npy",
+          "sha256": "cc36fe2068251deb938c4af97221ba3af59979d89f4f479481c6bb718f45bac6",
+          "bytes": 262272
+        },
+        "supervision": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0009b-final-test/supervision.npy",
+          "sha256": "280fbcdbbc1b9cf7f4873abf7758831d513cc3003d750f7e7fbcab7de81461fc",
+          "bytes": 262272
+        }
+      }
+    },
+    {
+      "id": "pherc0500p2-final-test",
+      "region": {
+        "id": "pherc0500p2-final-test",
+        "sample": "PHerc0500P2",
+        "role": "exposed_development_only",
+        "selection": {
+          "xywh_in_old_crop": [
+            192,
+            192,
+            128,
+            128
+          ],
+          "centre_distance_squared": 0,
+          "coarse_selection_positive_pixels": 5339,
+          "coarse_selection_negative_pixels": 3877,
+          "coarse_selection_supervised_pixels": 9216,
+          "eligible_candidates": 42
+        },
+        "xywh_level0": [
+          4864,
+          17152,
+          512,
+          512
+        ],
+        "source_sampling_um_zyx": [
+          2.215,
+          2.215,
+          2.215
+        ],
+        "nominal_surface_source_index": 58.5,
+        "depth": 118,
+        "source_region": {
+          "id": "pherc0500p2-final-test",
+          "role": "final_test",
+          "sample": "PHerc0500P2",
+          "segment": "20250825181859--1",
+          "volume_id": "20250526151718",
+          "surface_path": "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/",
+          "target_mesh_prefix": "PHerc0500P2/segments/20250825181859--1/mesh/20250825181859-on-20250526151718-2.215um.tifxyz/",
+          "source_shape_zyx_level2": [
+            118,
+            6190,
+            3470
+          ],
+          "source_sampling_um_zyx": [
+            2.215,
+            8.86,
+            8.86
+          ],
+          "pooled_sampling_um_zyx": [
+            8.86,
+            8.86,
+            8.86
+          ],
+          "physical_width_height_mm": [
+            4.53632,
+            4.53632
+          ],
+          "evaluation_margin": 64,
+          "source_z_slice": [
+            5,
+            113
+          ],
+          "nominal_surface_source_index": 58.5,
+          "label_sha256": {
+            "inklabels": "1dc3cdd5289702c08bcef7302aceb0301c04ad9177fdd2b08aafa3464518988a",
+            "supervision": "3b3f6824a550de4cf76c4acd0a5648e75406bc02bb770cdf5262be7683c19b1e"
+          },
+          "xywh_level2": [
+            1024,
+            4096,
+            512,
+            512
+          ],
+          "order_index": 196,
+          "coverage": 0.9357164171006944,
+          "supervised_pixels": 137977,
+          "ink_pixels": 35902,
+          "background_pixels": 102075,
+          "surface_xyz_bbox": [
+            [
+              9773.4912109375,
+              8789.845703125,
+              18426.03515625
+            ],
+            [
+              11930.7431640625,
+              9973.935546875,
+              20364.251953125
+            ]
+          ],
+          "sampled_xyz_bbox": [
+            [
+              9712.9912109375,
+              8729.345703125,
+              18365.53515625
+            ],
+            [
+              11991.2431640625,
+              10034.435546875,
+              20424.751953125
+            ]
+          ],
+          "mesh_grid_xy_bounds": [
+            204,
+            819,
+            309,
+            923
+          ]
+        },
+        "chunk_keys": [
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/38",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/39",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/40",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/41",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/38",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/39",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/40",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/41",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/38",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/39",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/40",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/41",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/38",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/39",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/40",
+          "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/41"
+        ],
+        "labels": [
+          {
+            "sample": "PHerc0500P2",
+            "kind": "inklabels",
+            "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/inklabels.zarr/0/c/0/0",
+            "bytes": 57745,
+            "etag": "\"2eddcd421e2656d72aa6a17128c56bb2\""
+          },
+          {
+            "sample": "PHerc0500P2",
+            "kind": "supervision",
+            "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/supervision.zarr/0/c/0/0",
+            "bytes": 100732,
+            "etag": "\"83604d3f1d8cd2caacadebaf952404c5\""
+          }
+        ]
+      },
+      "files": {
+        "ct-source": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0500p2-final-test/ct-source.npy",
+          "sha256": "022a460c78b8aad87413c2081098c0051f9631669851553989f7b9da0b90014b",
+          "bytes": 30933120
+        },
+        "inklabels": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0500p2-final-test/inklabels.npy",
+          "sha256": "14a65d269c602cd9340795c59a3ddf16f4de76b0ed20cdc04acd1774b3deddcd",
+          "bytes": 262272
+        },
+        "supervision": {
+          "path": "data/hecate-fine-projection/source-crops/pherc0500p2-final-test/supervision.npy",
+          "sha256": "280fbcdbbc1b9cf7f4873abf7758831d513cc3003d750f7e7fbcab7de81461fc",
+          "bytes": 262272
+        }
+      }
+    }
+  ],
+  "CT_bytes": 88080384,
+  "label_bytes": 449624,
+  "fetch_active_seconds": 99.71696637501009,
+  "zarr_version": "3.4.1"
+}

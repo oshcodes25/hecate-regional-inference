@@ -1,0 +1,10 @@
+{
+  "source": "E079 frozen result and input/output arrays",
+  "ct_plane_zero_based": 32,
+  "values": "Raw uint8 codes, no learned or generative edits",
+  "model_execution_in_browser": false,
+  "sample_cases": [
+    0,
+    1
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "command": [
+    ".venv-ink/bin/python",
+    "submissions/hecate-context-preserving-roi-20261026/src/hecate_roi.py",
+    "--runtime",
+    "submissions/hecate-context-preserving-roi-20261026/data/paired-resolution-audit/hecate-runtime-pinned.py",
+    "--checkpoint",
+    "data/models/hecate/hecate_2.4um.pth",
+    "--input",
+    "submissions/hecate-context-preserving-roi-20261026/inputs/PHerc0009B.npy",
+    "--spacing-um",
+    "2.4",
+    "--roi",
+    "144",
+    "144",
+    "208",
+    "208",
+    "--output",
+    "runs/hecate-roi/package-cli.png"
+  ],
+  "exit_code": 0,
+  "seconds": 35.432008959,
+  "peak_child_RSS_bytes": 6018498560,
+  "initial_power": {
+    "AC": false,
+    "battery_percent": 19,
+    "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t19%; discharging; 0:42 remaining present: true",
+    "lid_closed": false
+  },
+  "invalid_roi_rejected_before_allocation": true,
+  "existing_output_rejected": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "byte_identical_files": {
+    "REPORT.html": "497cb83c449090ba90d3cf8377eb77142330e6de34d602db1c045d9f7e2228ea",
+    "REPORT.txt": "541fa5b3aea96cc5e791a0f2b96bee5a45de1d3353b46807316c20f92387cf23",
+    "comparison.png": "5d5ae76a5c234032f735dc3a134fedb852a048b41c339e1d071c59ab22dc971d",
+    "context.png": "40410bc6a43b6a0d86190f420b64199c9b6ab3470b8dcdb51d9e316464e4f3ef"
+  }
+}

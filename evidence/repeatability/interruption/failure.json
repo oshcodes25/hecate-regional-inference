@@ -1,0 +1,33 @@
+{
+  "case": 1,
+  "command": [
+    "/Users/mcglone/vesuvius-challenge/.venv-roi-review/bin/python",
+    "-I",
+    "/Users/mcglone/vesuvius-challenge/src/measure_hecate_regions.py",
+    "--reader",
+    "/Users/mcglone/vesuvius-challenge/submissions/hecate-context-preserving-roi-20261026/src/hecate_roi.py",
+    "--runtime",
+    "/Users/mcglone/vesuvius-challenge/data/paired-resolution-audit/hecate-runtime-pinned.py",
+    "--input",
+    "/Users/mcglone/vesuvius-challenge/data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+    "--checkpoint",
+    "/Users/mcglone/vesuvius-challenge/data/models/hecate/hecate_2.4um.pth",
+    "--sample",
+    "PHerc0500P2",
+    "--sampling",
+    "2.4",
+    "--seconds",
+    "600",
+    "--output",
+    "/Users/mcglone/vesuvius-challenge/runs/hecate-repeatability/case-01"
+  ],
+  "seconds": 45.809465875,
+  "exit_code": -15,
+  "stop_reason": "worker time cap or AC/open-lid requirement",
+  "initial_power": {
+    "AC": true,
+    "battery_percent": 15,
+    "raw": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=22151267)\t15%; charging; 2:17 remaining present: true",
+    "lid_closed": false
+  }
+}

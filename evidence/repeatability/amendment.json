@@ -1,0 +1,35 @@
+{
+  "registered_at": "2026-10-26T06:55:08.600500+00:00",
+  "original_plan": {
+    "path": "runs/hecate-repeatability/registered-plan.json",
+    "sha256": "08298a631d8e2c515149ff51f04bf8d3c3aab411296eacfbda3e145b208bfbae",
+    "bytes": 8305
+  },
+  "interrupted_execution": {
+    "path": "runs/hecate-repeatability/execution.json",
+    "sha256": "a723bcdae936b3c8b99ba23187ec5ec249270fd6bf6cb0833fee74545eda9cc6",
+    "bytes": 2886
+  },
+  "failure": {
+    "path": "runs/hecate-repeatability/failure.json",
+    "sha256": "5ec00c77370829120b0be4adcf12d32259bcf2e6eaac5e3436931bf7e3eeeca1",
+    "bytes": 1151
+  },
+  "review": "OS power log records AC to battery at 2026-10-26 17:36:29 AEDT, followed by clamshell sleep at 17:36:31. Guard terminated worker 1 after 45.809s, before the 600s cap. No prediction file or completed repeat was saved by that worker. Case 0 completed all three repetitions before interruption.",
+  "unchanged": "Same input/checkpoint/source hashes, coordinates, methods, order, three repetitions, seed, threads, precision and per-worker limits. No outcome-based selection or parameter adjustment.",
+  "reuse": "Only complete case 0, copied byte-for-byte and hash checked. Rerun the interrupted case 1 in a fresh directory, then fixed cases 2\u20134.",
+  "consumed_worker_seconds": 483.57715049999996,
+  "remaining_worker_seconds": 1916.4228495,
+  "resources": "Original 2400s aggregate cap includes both original attempts and this continuation. Each remaining worker retains its original cap. A further interruption is preserved and cannot automatically retry.",
+  "power_at_registration": {
+    "AC": true,
+    "battery_percent": 30,
+    "raw": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=22151267)\t30%; charging; 1:32 remaining present: true",
+    "lid_closed": false
+  },
+  "launcher": {
+    "path": "src/resume_hecate_repeatability.py",
+    "sha256": "6bddd2bd2ba5e13c2f4b08ad0d2141f4cb3bfff8de17841ceb4b208483eb1af3",
+    "bytes": 3621
+  }
+}

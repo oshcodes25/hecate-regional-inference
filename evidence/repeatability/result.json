@@ -1,0 +1,1003 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "sample": "PHerc0009B",
+      "sampling": 2.4,
+      "region": "centre",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 121.2131922498811,
+          "regional_seconds": 25.456218666862696,
+          "halo_seconds": 26.381414167117327,
+          "full_over_regional": 4.7616338402870815,
+          "regional_over_halo": 0.9649300263286179,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 61.849925292190164,
+          "regional_seconds": 25.956958666909486,
+          "halo_seconds": 26.433343457989395,
+          "full_over_regional": 2.382787832961257,
+          "regional_over_halo": 0.98197788365906,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 65.69928770908155,
+          "regional_seconds": 27.086111292010173,
+          "halo_seconds": 32.16487475018948,
+          "full_over_regional": 2.4255710611534496,
+          "regional_over_halo": 0.8421021845219717,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 65.69928770908155,
+          "minimum": 61.849925292190164,
+          "maximum": 121.2131922498811
+        },
+        "regional_seconds": {
+          "median": 25.956958666909486,
+          "minimum": 25.456218666862696,
+          "maximum": 27.086111292010173
+        },
+        "halo_seconds": {
+          "median": 26.433343457989395,
+          "minimum": 26.381414167117327,
+          "maximum": 32.16487475018948
+        },
+        "full_over_regional": {
+          "median": 2.4255710611534496,
+          "minimum": 2.382787832961257,
+          "maximum": 4.7616338402870815
+        },
+        "regional_over_halo": {
+          "median": 0.9649300263286179,
+          "minimum": 0.8421021845219717,
+          "maximum": 0.98197788365906
+        },
+        "halo_over_regional_accumulator": {
+          "median": 36.0,
+          "minimum": 36.0,
+          "maximum": 36.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        },
+        "halo_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "sample": "PHerc0500P2",
+      "sampling": 2.4,
+      "region": "centre",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 71.28025841712952,
+          "regional_seconds": 32.48721041693352,
+          "halo_seconds": 30.753403624985367,
+          "full_over_regional": 2.194102155966449,
+          "regional_over_halo": 1.0563777204335048,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 64.08290591603145,
+          "regional_seconds": 29.13718799990602,
+          "halo_seconds": 28.832224207930267,
+          "full_over_regional": 2.19935108069585,
+          "regional_over_halo": 1.0105771857827004,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 62.55132279195823,
+          "regional_seconds": 24.992109082872048,
+          "halo_seconds": 29.122923041926697,
+          "full_over_regional": 2.502842900714882,
+          "regional_over_halo": 0.8581593628803077,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 64.08290591603145,
+          "minimum": 62.55132279195823,
+          "maximum": 71.28025841712952
+        },
+        "regional_seconds": {
+          "median": 29.13718799990602,
+          "minimum": 24.992109082872048,
+          "maximum": 32.48721041693352
+        },
+        "halo_seconds": {
+          "median": 29.122923041926697,
+          "minimum": 28.832224207930267,
+          "maximum": 30.753403624985367
+        },
+        "full_over_regional": {
+          "median": 2.19935108069585,
+          "minimum": 2.194102155966449,
+          "maximum": 2.502842900714882
+        },
+        "regional_over_halo": {
+          "median": 1.0105771857827004,
+          "minimum": 0.8581593628803077,
+          "maximum": 1.0563777204335048
+        },
+        "halo_over_regional_accumulator": {
+          "median": 36.0,
+          "minimum": 36.0,
+          "maximum": 36.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        },
+        "halo_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "sample": "PHerc0841",
+      "sampling": 9.6,
+      "region": "edge",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 8.74756829207763,
+          "regional_seconds": 0.9741821249481291,
+          "halo_seconds": 0.9808327921200544,
+          "full_over_regional": 8.9793972482747,
+          "regional_over_halo": 0.9932193670263104,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 9.154304625000805,
+          "regional_seconds": 0.9921842499170452,
+          "halo_seconds": 1.104637541808188,
+          "full_over_regional": 9.226415986512768,
+          "regional_over_halo": 0.898198922601284,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.582298415945843,
+          "regional_seconds": 0.9957178749609739,
+          "halo_seconds": 0.9920100830495358,
+          "full_over_regional": 8.619206937790704,
+          "regional_over_halo": 1.0037376554682187,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.74756829207763,
+          "minimum": 8.582298415945843,
+          "maximum": 9.154304625000805
+        },
+        "regional_seconds": {
+          "median": 0.9921842499170452,
+          "minimum": 0.9741821249481291,
+          "maximum": 0.9957178749609739
+        },
+        "halo_seconds": {
+          "median": 0.9920100830495358,
+          "minimum": 0.9808327921200544,
+          "maximum": 1.104637541808188
+        },
+        "full_over_regional": {
+          "median": 8.9793972482747,
+          "minimum": 8.619206937790704,
+          "maximum": 9.226415986512768
+        },
+        "regional_over_halo": {
+          "median": 0.9932193670263104,
+          "minimum": 0.898198922601284,
+          "maximum": 1.0037376554682187
+        },
+        "halo_over_regional_accumulator": {
+          "median": 16.0,
+          "minimum": 16.0,
+          "maximum": 16.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 1.0,
+          "minimum": 1,
+          "maximum": 1
+        },
+        "halo_tiles": {
+          "median": 1.0,
+          "minimum": 1,
+          "maximum": 1
+        }
+      }
+    },
+    {
+      "sample": "PHerc0841",
+      "sampling": 9.6,
+      "region": "centre",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 8.74756829207763,
+          "regional_seconds": 3.9045836250297725,
+          "halo_seconds": 3.9036157079972327,
+          "full_over_regional": 2.240333190971401,
+          "regional_over_halo": 1.0002479539752227,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 9.154304625000805,
+          "regional_seconds": 3.889997666934505,
+          "halo_seconds": 3.8551031248643994,
+          "full_over_regional": 2.353293088788614,
+          "regional_over_halo": 1.00905151974925,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.582298415945843,
+          "regional_seconds": 3.934331249911338,
+          "halo_seconds": 3.965432208031416,
+          "full_over_regional": 2.1813868408104296,
+          "regional_over_halo": 0.9921569815121067,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.74756829207763,
+          "minimum": 8.582298415945843,
+          "maximum": 9.154304625000805
+        },
+        "regional_seconds": {
+          "median": 3.9045836250297725,
+          "minimum": 3.889997666934505,
+          "maximum": 3.934331249911338
+        },
+        "halo_seconds": {
+          "median": 3.9036157079972327,
+          "minimum": 3.8551031248643994,
+          "maximum": 3.965432208031416
+        },
+        "full_over_regional": {
+          "median": 2.240333190971401,
+          "minimum": 2.1813868408104296,
+          "maximum": 2.353293088788614
+        },
+        "regional_over_halo": {
+          "median": 1.0002479539752227,
+          "minimum": 0.9921569815121067,
+          "maximum": 1.00905151974925
+        },
+        "halo_over_regional_accumulator": {
+          "median": 36.0,
+          "minimum": 36.0,
+          "maximum": 36.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        },
+        "halo_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "sample": "PHerc0841",
+      "sampling": 9.6,
+      "region": "large",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 8.74756829207763,
+          "regional_seconds": 8.764181500067934,
+          "halo_seconds": 8.713179500075057,
+          "full_over_regional": 0.9981044199061629,
+          "regional_over_halo": 1.0058534315736796,
+          "halo_over_regional_accumulator": 1.7777777777777777,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 9.154304625000805,
+          "regional_seconds": 9.282699582865462,
+          "halo_seconds": 9.457229667110369,
+          "full_over_regional": 0.9861683601070473,
+          "regional_over_halo": 0.9815453266560846,
+          "halo_over_regional_accumulator": 1.7777777777777777,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.582298415945843,
+          "regional_seconds": 8.645997334038839,
+          "halo_seconds": 9.602621792117134,
+          "full_over_regional": 0.9926325540441452,
+          "regional_over_halo": 0.9003788258261306,
+          "halo_over_regional_accumulator": 1.7777777777777777,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.74756829207763,
+          "minimum": 8.582298415945843,
+          "maximum": 9.154304625000805
+        },
+        "regional_seconds": {
+          "median": 8.764181500067934,
+          "minimum": 8.645997334038839,
+          "maximum": 9.282699582865462
+        },
+        "halo_seconds": {
+          "median": 9.457229667110369,
+          "minimum": 8.713179500075057,
+          "maximum": 9.602621792117134
+        },
+        "full_over_regional": {
+          "median": 0.9926325540441452,
+          "minimum": 0.9861683601070473,
+          "maximum": 0.9981044199061629
+        },
+        "regional_over_halo": {
+          "median": 0.9815453266560846,
+          "minimum": 0.9003788258261306,
+          "maximum": 1.0058534315736796
+        },
+        "halo_over_regional_accumulator": {
+          "median": 1.7777777777777777,
+          "minimum": 1.7777777777777777,
+          "maximum": 1.7777777777777777
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "halo_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        }
+      }
+    },
+    {
+      "sample": "PHerc0009B",
+      "sampling": 9.6,
+      "region": "edge",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 8.625058958074078,
+          "regional_seconds": 0.9328874999191612,
+          "halo_seconds": 0.9511928330175579,
+          "full_over_regional": 9.245551000331206,
+          "regional_over_halo": 0.9807553921108457,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 8.53368870797567,
+          "regional_seconds": 1.0063771659042686,
+          "halo_seconds": 0.9644446249585599,
+          "full_over_regional": 8.47961281028055,
+          "regional_over_halo": 1.043478432934924,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.574236290995032,
+          "regional_seconds": 0.9572053330484778,
+          "halo_seconds": 0.9620630000717938,
+          "full_over_regional": 8.95757262831797,
+          "regional_over_halo": 0.9949507807462157,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.574236290995032,
+          "minimum": 8.53368870797567,
+          "maximum": 8.625058958074078
+        },
+        "regional_seconds": {
+          "median": 0.9572053330484778,
+          "minimum": 0.9328874999191612,
+          "maximum": 1.0063771659042686
+        },
+        "halo_seconds": {
+          "median": 0.9620630000717938,
+          "minimum": 0.9511928330175579,
+          "maximum": 0.9644446249585599
+        },
+        "full_over_regional": {
+          "median": 8.95757262831797,
+          "minimum": 8.47961281028055,
+          "maximum": 9.245551000331206
+        },
+        "regional_over_halo": {
+          "median": 0.9949507807462157,
+          "minimum": 0.9807553921108457,
+          "maximum": 1.043478432934924
+        },
+        "halo_over_regional_accumulator": {
+          "median": 16.0,
+          "minimum": 16.0,
+          "maximum": 16.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 1.0,
+          "minimum": 1,
+          "maximum": 1
+        },
+        "halo_tiles": {
+          "median": 1.0,
+          "minimum": 1,
+          "maximum": 1
+        }
+      }
+    },
+    {
+      "sample": "PHerc0009B",
+      "sampling": 9.6,
+      "region": "centre",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 8.625058958074078,
+          "regional_seconds": 3.7416070410981774,
+          "halo_seconds": 3.67432808293961,
+          "full_over_regional": 2.3051749858645194,
+          "regional_over_halo": 1.01831054730005,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 8.53368870797567,
+          "regional_seconds": 3.9579620419535786,
+          "halo_seconds": 3.762733208015561,
+          "full_over_regional": 2.15608149282897,
+          "regional_over_halo": 1.0518848462394654,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.574236290995032,
+          "regional_seconds": 3.8368522501550615,
+          "halo_seconds": 3.8556705000810325,
+          "full_over_regional": 2.234705881793732,
+          "regional_over_halo": 0.9951193314040773,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.574236290995032,
+          "minimum": 8.53368870797567,
+          "maximum": 8.625058958074078
+        },
+        "regional_seconds": {
+          "median": 3.8368522501550615,
+          "minimum": 3.7416070410981774,
+          "maximum": 3.9579620419535786
+        },
+        "halo_seconds": {
+          "median": 3.762733208015561,
+          "minimum": 3.67432808293961,
+          "maximum": 3.8556705000810325
+        },
+        "full_over_regional": {
+          "median": 2.234705881793732,
+          "minimum": 2.15608149282897,
+          "maximum": 2.3051749858645194
+        },
+        "regional_over_halo": {
+          "median": 1.01831054730005,
+          "minimum": 0.9951193314040773,
+          "maximum": 1.0518848462394654
+        },
+        "halo_over_regional_accumulator": {
+          "median": 36.0,
+          "minimum": 36.0,
+          "maximum": 36.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        },
+        "halo_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "sample": "PHerc0009B",
+      "sampling": 9.6,
+      "region": "large",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 8.625058958074078,
+          "regional_seconds": 8.41914991592057,
+          "halo_seconds": 9.018803999992087,
+          "full_over_regional": 1.0244572248041497,
+          "regional_over_halo": 0.9335106867748714,
+          "halo_over_regional_accumulator": 1.7777777777777777,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 8.53368870797567,
+          "regional_seconds": 9.069537250092253,
+          "halo_seconds": 9.304180334089324,
+          "full_over_regional": 0.940917763790966,
+          "regional_over_halo": 0.974780896804271,
+          "halo_over_regional_accumulator": 1.7777777777777777,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.574236290995032,
+          "regional_seconds": 8.659661000128835,
+          "halo_seconds": 8.579581375000998,
+          "full_over_regional": 0.9901353287233146,
+          "regional_over_halo": 1.009333745042756,
+          "halo_over_regional_accumulator": 1.7777777777777777,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.574236290995032,
+          "minimum": 8.53368870797567,
+          "maximum": 8.625058958074078
+        },
+        "regional_seconds": {
+          "median": 8.659661000128835,
+          "minimum": 8.41914991592057,
+          "maximum": 9.069537250092253
+        },
+        "halo_seconds": {
+          "median": 9.018803999992087,
+          "minimum": 8.579581375000998,
+          "maximum": 9.304180334089324
+        },
+        "full_over_regional": {
+          "median": 0.9901353287233146,
+          "minimum": 0.940917763790966,
+          "maximum": 1.0244572248041497
+        },
+        "regional_over_halo": {
+          "median": 0.974780896804271,
+          "minimum": 0.9335106867748714,
+          "maximum": 1.009333745042756
+        },
+        "halo_over_regional_accumulator": {
+          "median": 1.7777777777777777,
+          "minimum": 1.7777777777777777,
+          "maximum": 1.7777777777777777
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "halo_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        }
+      }
+    },
+    {
+      "sample": "PHerc0500P2",
+      "sampling": 9.6,
+      "region": "edge",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 9.041820583166555,
+          "regional_seconds": 0.998458957998082,
+          "halo_seconds": 1.0331668748985976,
+          "full_over_regional": 9.05577591421031,
+          "regional_over_halo": 0.9664062817500589,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 8.224725042004138,
+          "regional_seconds": 0.957765290979296,
+          "halo_seconds": 0.9467752082273364,
+          "full_over_regional": 8.587411884173125,
+          "regional_over_halo": 1.011607911420216,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.060084375087172,
+          "regional_seconds": 0.9032543750945479,
+          "halo_seconds": 0.9147527078166604,
+          "full_over_regional": 8.92338260110114,
+          "regional_over_halo": 0.987430118955803,
+          "halo_over_regional_accumulator": 16.0,
+          "full_tiles": 9,
+          "regional_tiles": 1,
+          "halo_tiles": 1
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.224725042004138,
+          "minimum": 8.060084375087172,
+          "maximum": 9.041820583166555
+        },
+        "regional_seconds": {
+          "median": 0.957765290979296,
+          "minimum": 0.9032543750945479,
+          "maximum": 0.998458957998082
+        },
+        "halo_seconds": {
+          "median": 0.9467752082273364,
+          "minimum": 0.9147527078166604,
+          "maximum": 1.0331668748985976
+        },
+        "full_over_regional": {
+          "median": 8.92338260110114,
+          "minimum": 8.587411884173125,
+          "maximum": 9.05577591421031
+        },
+        "regional_over_halo": {
+          "median": 0.987430118955803,
+          "minimum": 0.9664062817500589,
+          "maximum": 1.011607911420216
+        },
+        "halo_over_regional_accumulator": {
+          "median": 16.0,
+          "minimum": 16.0,
+          "maximum": 16.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 1.0,
+          "minimum": 1,
+          "maximum": 1
+        },
+        "halo_tiles": {
+          "median": 1.0,
+          "minimum": 1,
+          "maximum": 1
+        }
+      }
+    },
+    {
+      "sample": "PHerc0500P2",
+      "sampling": 9.6,
+      "region": "centre",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 9.041820583166555,
+          "regional_seconds": 3.952475958969444,
+          "halo_seconds": 4.01531841699034,
+          "full_over_regional": 2.2876345554101967,
+          "regional_over_halo": 0.9843493214000202,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 8.224725042004138,
+          "regional_seconds": 3.900013792095706,
+          "halo_seconds": 3.8756254999898374,
+          "full_over_regional": 2.108896398949531,
+          "regional_over_halo": 1.006292737031979,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.060084375087172,
+          "regional_seconds": 3.5805762498639524,
+          "halo_seconds": 3.6752408749889582,
+          "full_over_regional": 2.2510578780143065,
+          "regional_over_halo": 0.9742426065814557,
+          "halo_over_regional_accumulator": 36.0,
+          "full_tiles": 9,
+          "regional_tiles": 4,
+          "halo_tiles": 4
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.224725042004138,
+          "minimum": 8.060084375087172,
+          "maximum": 9.041820583166555
+        },
+        "regional_seconds": {
+          "median": 3.900013792095706,
+          "minimum": 3.5805762498639524,
+          "maximum": 3.952475958969444
+        },
+        "halo_seconds": {
+          "median": 3.8756254999898374,
+          "minimum": 3.6752408749889582,
+          "maximum": 4.01531841699034
+        },
+        "full_over_regional": {
+          "median": 2.2510578780143065,
+          "minimum": 2.108896398949531,
+          "maximum": 2.2876345554101967
+        },
+        "regional_over_halo": {
+          "median": 0.9843493214000202,
+          "minimum": 0.9742426065814557,
+          "maximum": 1.006292737031979
+        },
+        "halo_over_regional_accumulator": {
+          "median": 36.0,
+          "minimum": 36.0,
+          "maximum": 36.0
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        },
+        "halo_tiles": {
+          "median": 4.0,
+          "minimum": 4,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "sample": "PHerc0500P2",
+      "sampling": 9.6,
+      "region": "large",
+      "trials": [
+        {
+          "repeat": 0,
+          "full_seconds": 9.041820583166555,
+          "regional_seconds": 8.890809957869351,
+          "halo_seconds": 9.113200583960861,
+          "full_over_regional": 1.016985024538011,
+          "regional_over_halo": 0.9755968691742707,
+          "halo_over_regional_accumulator": 1.8826392644672796,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        },
+        {
+          "repeat": 1,
+          "full_seconds": 8.224725042004138,
+          "regional_seconds": 8.518900665920228,
+          "halo_seconds": 8.471192207885906,
+          "full_over_regional": 0.965467888938659,
+          "regional_over_halo": 1.0056318469541878,
+          "halo_over_regional_accumulator": 1.8826392644672796,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        },
+        {
+          "repeat": 2,
+          "full_seconds": 8.060084375087172,
+          "regional_seconds": 8.22705608420074,
+          "halo_seconds": 8.08286187495105,
+          "full_over_regional": 0.9797045617041288,
+          "regional_over_halo": 1.0178394993605608,
+          "halo_over_regional_accumulator": 1.8826392644672796,
+          "full_tiles": 9,
+          "regional_tiles": 9,
+          "halo_tiles": 9
+        }
+      ],
+      "statistics": {
+        "full_seconds": {
+          "median": 8.224725042004138,
+          "minimum": 8.060084375087172,
+          "maximum": 9.041820583166555
+        },
+        "regional_seconds": {
+          "median": 8.518900665920228,
+          "minimum": 8.22705608420074,
+          "maximum": 8.890809957869351
+        },
+        "halo_seconds": {
+          "median": 8.471192207885906,
+          "minimum": 8.08286187495105,
+          "maximum": 9.113200583960861
+        },
+        "full_over_regional": {
+          "median": 0.9797045617041288,
+          "minimum": 0.965467888938659,
+          "maximum": 1.016985024538011
+        },
+        "regional_over_halo": {
+          "median": 1.0056318469541878,
+          "minimum": 0.9755968691742707,
+          "maximum": 1.0178394993605608
+        },
+        "halo_over_regional_accumulator": {
+          "median": 1.8826392644672796,
+          "minimum": 1.8826392644672796,
+          "maximum": 1.8826392644672796
+        },
+        "full_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "regional_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        },
+        "halo_tiles": {
+          "median": 9.0,
+          "minimum": 9,
+          "maximum": 9
+        }
+      }
+    }
+  ],
+  "gates": {
+    "exact_all_outputs": true,
+    "central_speed_repeats": true,
+    "small_storage_advantage": true,
+    "small_time_nonregression_vs_halo": true
+  },
+  "all_gates_passed": true,
+  "scope": "A stronger reproducibility test of existing software, not an ink-accuracy or new-text experiment."
+}

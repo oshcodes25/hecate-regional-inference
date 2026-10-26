@@ -1,0 +1,7 @@
+# Verification
+
+All eight registered real-data cases pass. A separate scalar traversal recounts saved differences; a portable NumPy command checks every output value and file hash. The final local suite ran 260 tests with 44 expected Torch skips; the packaged Torch geometry/runtime suite ran 10 tests with no skips. Four scientific-report artifacts regenerate byte-for-byte. Both plots and desktop/mobile screenshots were visually inspected. Browser automation exercised 32 case/depth/contrast combinations through HTTP and again directly from the packaged local HTML file, with no script exceptions or page-width overflow.
+
+The real packaged CLI was run once on the fixed fine-resolution case 0 ROI. Its PNG decodes to exactly the registered 4096-pixel image, and the sidecar correctly records source XY origin [144, 144]. Invalid geometry is rejected before output allocation; existing files are not overwritten. A preliminary QA wrapper failed before launching inference because system Python lacked NumPy; switching the wrapper to the existing study environment is documented. The scientific code, inputs and model settings were unchanged.
+
+The code is an implementation of an established global-grid principle for the separate Hecate runtime. These tests do not demonstrate newly read letters, improved ink recall, GPU equivalence, whole-scroll performance or external adoption. Read SUBMISSION.md and README.md for the precise claim and prior-work credits.

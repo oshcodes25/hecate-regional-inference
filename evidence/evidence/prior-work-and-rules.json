@@ -1,0 +1,31 @@
+{
+  "accessed": "2026-10-26",
+  "question": "Closest prior art for global-context regional Hecate inference",
+  "sources": [
+    {
+      "url": "https://github.com/ScrollPrize/villa/pull/1247",
+      "finding": "Existing surface-model --bbox fix keeps the parent volume patch grid, so ROI and full runs agree. This is direct prior art for the principle, explicitly credited."
+    },
+    {
+      "url": "https://huggingface.co/scrollprize/hecate/tree/9cb86e500e944b11a06a7020403cde5dffb5bcb2",
+      "finding": "Current runtime verified identical to local reviewed pinned code; predict accepts full volume/output and has no regional output arguments. Features, uint8 export and dual-pass 2D/3D behavior are upstream."
+    },
+    {
+      "url": "https://huggingface.co/scrollprize/hecate/discussions/1",
+      "finding": "Paired 2D/3D feature reuse already proposed by another contributor. Excluded from our novelty claim."
+    },
+    {
+      "url": "https://github.com/ArcheyChen/vesuvius-eligible-scouting/blob/c73d0dd5c0bf1913fd1a6551f6dcae428ce0cc56/docs/hecate_perf.md",
+      "finding": "Existing faster 2D pipeline and stride/accuracy measurements. Inspected code has no regional API or 3D output path."
+    },
+    {
+      "url": "https://scrollprize.org/prizes",
+      "finding": "Progress Prize next deadline 31 October2026 23:59Pacific. Requires demonstrated significant advantage; private submission permitted, permissive public release required to accept award."
+    },
+    {
+      "url": "https://scrollprize.org/data",
+      "finding": "Newer scans cite Angelotti et al., Vesuvius Challenge - CT Scans of Herculaneum Papyri. Data portal states CC BY-NC4.0 unless a specific asset says otherwise."
+    }
+  ],
+  "novelty_scope": "A concrete Hecate implementation and validation of an established global-grid technique, not invention of ROI inference. No proof of field-wide novelty or organizer acceptance."
+}

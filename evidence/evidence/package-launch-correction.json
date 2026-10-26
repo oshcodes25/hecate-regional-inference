@@ -1,0 +1,6 @@
+{
+  "recorded_at": "2026-10-26T04:06:46.492916+00:00",
+  "original_failure": "QA launcher used system Python, whose power-guard import failed because NumPy was absent. It failed before any preflight, model loading, output or neural call.",
+  "correction": "Use the existing .venv interpreter for the identical QA launcher. CLI itself remains .venv-ink, with fixed original case0 inputs and settings.",
+  "changed_scientific_settings": false
+}

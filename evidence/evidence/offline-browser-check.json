@@ -1,0 +1,250 @@
+{
+  "status": "passed",
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "context.png",
+        "decoded": true
+      },
+      {
+        "src": "comparison.png",
+        "decoded": true
+      }
+    ],
+    "caseCount": 8
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "tableScrolls": true
+  },
+  "interactiveChecks": [
+    {
+      "case": 0,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 0,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 1,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 1,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 2,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 2,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 2,
+      "z": 32,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 2,
+      "z": 32,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 2,
+      "z": 63,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 2,
+      "z": 63,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 3,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 3,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 3,
+      "z": 32,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 3,
+      "z": 32,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 3,
+      "z": 63,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 3,
+      "z": 63,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 4,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 4,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 5,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 5,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": true
+    },
+    {
+      "case": 6,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 6,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 6,
+      "z": 8,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 6,
+      "z": 8,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 6,
+      "z": 15,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 6,
+      "z": 15,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 7,
+      "z": 0,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 7,
+      "z": 0,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 7,
+      "z": 8,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 7,
+      "z": 8,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 7,
+      "z": 15,
+      "ceiling": 255,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    },
+    {
+      "case": 7,
+      "z": 15,
+      "ceiling": 32,
+      "canvasMatch": true,
+      "depthControlHidden": false
+    }
+  ],
+  "exceptions": []
+}

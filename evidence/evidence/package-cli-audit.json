@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "decoded_PNG_equals_registered_case0": true,
+  "independent_pixel_comparisons": 4096,
+  "source_coordinate_sidecar_valid": true,
+  "neural_tiles": 4
+}

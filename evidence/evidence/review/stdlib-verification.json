@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "verified_files": 68,
+  "cases": 8,
+  "compared_values": 541184,
+  "results": [
+    {
+      "case": 0,
+      "regional_differences": 0,
+      "naive_differences": 3944
+    },
+    {
+      "case": 1,
+      "regional_differences": 0,
+      "naive_differences": 4094
+    },
+    {
+      "case": 2,
+      "regional_differences": 0,
+      "naive_differences": 59074
+    },
+    {
+      "case": 3,
+      "regional_differences": 0,
+      "naive_differences": 100724
+    },
+    {
+      "case": 4,
+      "regional_differences": 0,
+      "naive_differences": 241
+    },
+    {
+      "case": 5,
+      "regional_differences": 0,
+      "naive_differences": 256
+    },
+    {
+      "case": 6,
+      "regional_differences": 0,
+      "naive_differences": 1798
+    },
+    {
+      "case": 7,
+      "regional_differences": 0,
+      "naive_differences": 2682
+    }
+  ],
+  "scope": "Saved-file integrity and exact output equivalence. No model was run; speed and ink accuracy are not verified by this command."
+}

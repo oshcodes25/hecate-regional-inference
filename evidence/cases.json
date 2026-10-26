@@ -1,0 +1,226 @@
+[
+  {
+    "index": 0,
+    "sample": "PHerc0009B",
+    "sampling_um": 2.4,
+    "three_d": false,
+    "reverse": false,
+    "roi_xyxy": [
+      144,
+      144,
+      208,
+      208
+    ],
+    "batch_size": 1,
+    "order": [
+      "full",
+      "roi",
+      "naive"
+    ],
+    "input": "inputs/PHerc0009B.npy",
+    "checkpoint_name": "hecate_2.4um.pth",
+    "checkpoint_sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+    "outputs": {
+      "full": "outputs/case-00/full.npy",
+      "roi": "outputs/case-00/roi.npy",
+      "naive": "outputs/case-00/naive.npy"
+    },
+    "naive_differing_values": 3944
+  },
+  {
+    "index": 1,
+    "sample": "PHerc0500P2",
+    "sampling_um": 2.4,
+    "three_d": false,
+    "reverse": false,
+    "roi_xyxy": [
+      144,
+      144,
+      208,
+      208
+    ],
+    "batch_size": 1,
+    "order": [
+      "roi",
+      "full",
+      "naive"
+    ],
+    "input": "inputs/PHerc0500P2.npy",
+    "checkpoint_name": "hecate_2.4um.pth",
+    "checkpoint_sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+    "outputs": {
+      "roi": "outputs/case-01/roi.npy",
+      "full": "outputs/case-01/full.npy",
+      "naive": "outputs/case-01/naive.npy"
+    },
+    "naive_differing_values": 4094
+  },
+  {
+    "index": 2,
+    "sample": "PHerc0009B",
+    "sampling_um": 2.4,
+    "three_d": true,
+    "reverse": true,
+    "roi_xyxy": [
+      144,
+      144,
+      208,
+      208
+    ],
+    "batch_size": 1,
+    "order": [
+      "full",
+      "roi",
+      "naive"
+    ],
+    "input": "inputs/PHerc0009B.npy",
+    "checkpoint_name": "hecate_2.4um.pth",
+    "checkpoint_sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+    "outputs": {
+      "full": "outputs/case-02/full.npy",
+      "roi": "outputs/case-02/roi.npy",
+      "naive": "outputs/case-02/naive.npy"
+    },
+    "naive_differing_values": 59074
+  },
+  {
+    "index": 3,
+    "sample": "PHerc0500P2",
+    "sampling_um": 2.4,
+    "three_d": true,
+    "reverse": false,
+    "roi_xyxy": [
+      144,
+      144,
+      208,
+      208
+    ],
+    "batch_size": 1,
+    "order": [
+      "roi",
+      "full",
+      "naive"
+    ],
+    "input": "inputs/PHerc0500P2.npy",
+    "checkpoint_name": "hecate_2.4um.pth",
+    "checkpoint_sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+    "outputs": {
+      "roi": "outputs/case-03/roi.npy",
+      "full": "outputs/case-03/full.npy",
+      "naive": "outputs/case-03/naive.npy"
+    },
+    "naive_differing_values": 100724
+  },
+  {
+    "index": 4,
+    "sample": "PHerc0009B",
+    "sampling_um": 9.6,
+    "three_d": false,
+    "reverse": false,
+    "roi_xyxy": [
+      36,
+      36,
+      52,
+      52
+    ],
+    "batch_size": 1,
+    "order": [
+      "full",
+      "roi",
+      "naive"
+    ],
+    "input": "inputs/PHerc0009B.npy",
+    "checkpoint_name": "hecate_9.6um.pth",
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "outputs": {
+      "full": "outputs/case-04/full.npy",
+      "roi": "outputs/case-04/roi.npy",
+      "naive": "outputs/case-04/naive.npy"
+    },
+    "naive_differing_values": 241
+  },
+  {
+    "index": 5,
+    "sample": "PHerc0500P2",
+    "sampling_um": 9.6,
+    "three_d": false,
+    "reverse": true,
+    "roi_xyxy": [
+      36,
+      36,
+      52,
+      52
+    ],
+    "batch_size": 3,
+    "order": [
+      "roi",
+      "full",
+      "naive"
+    ],
+    "input": "inputs/PHerc0500P2.npy",
+    "checkpoint_name": "hecate_9.6um.pth",
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "outputs": {
+      "roi": "outputs/case-05/roi.npy",
+      "full": "outputs/case-05/full.npy",
+      "naive": "outputs/case-05/naive.npy"
+    },
+    "naive_differing_values": 256
+  },
+  {
+    "index": 6,
+    "sample": "PHerc0009B",
+    "sampling_um": 9.6,
+    "three_d": true,
+    "reverse": true,
+    "roi_xyxy": [
+      36,
+      36,
+      52,
+      52
+    ],
+    "batch_size": 1,
+    "order": [
+      "full",
+      "roi",
+      "naive"
+    ],
+    "input": "inputs/PHerc0009B.npy",
+    "checkpoint_name": "hecate_9.6um.pth",
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "outputs": {
+      "full": "outputs/case-06/full.npy",
+      "roi": "outputs/case-06/roi.npy",
+      "naive": "outputs/case-06/naive.npy"
+    },
+    "naive_differing_values": 1798
+  },
+  {
+    "index": 7,
+    "sample": "PHerc0500P2",
+    "sampling_um": 9.6,
+    "three_d": true,
+    "reverse": true,
+    "roi_xyxy": [
+      36,
+      36,
+      52,
+      52
+    ],
+    "batch_size": 3,
+    "order": [
+      "roi",
+      "full",
+      "naive"
+    ],
+    "input": "inputs/PHerc0500P2.npy",
+    "checkpoint_name": "hecate_9.6um.pth",
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "outputs": {
+      "roi": "outputs/case-07/roi.npy",
+      "full": "outputs/case-07/full.npy",
+      "naive": "outputs/case-07/naive.npy"
+    },
+    "naive_differing_values": 2682
+  }
+]

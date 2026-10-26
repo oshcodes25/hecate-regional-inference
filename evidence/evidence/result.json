@@ -1,0 +1,2573 @@
+{
+  "status": "completed",
+  "cases": [
+    {
+      "status": "completed",
+      "case": {
+        "index": 0,
+        "sample": "PHerc0009B",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ct.npy",
+          "sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+          "bytes": 16777344
+        },
+        "source_geometry": {
+          "id": "pherc0009b-final-test",
+          "sample": "PHerc0009B",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 6840,
+            "coarse_selection_negative_pixels": 2375,
+            "coarse_selection_supervised_pixels": 9215,
+            "eligible_candidates": 63
+          },
+          "xywh_level0": [
+            11008,
+            22272,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.401,
+            2.401,
+            2.401
+          ],
+          "nominal_surface_source_index": 54.0,
+          "depth": 109,
+          "source_region": {
+            "id": "pherc0009b-final-test",
+            "role": "final_test",
+            "sample": "PHerc0009B",
+            "segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+            "volume_id": "20250820154339",
+            "surface_path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/",
+            "target_mesh_prefix": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz/",
+            "source_shape_zyx_level2": [
+              109,
+              6340,
+              5130
+            ],
+            "source_sampling_um_zyx": [
+              2.401,
+              9.604,
+              9.604
+            ],
+            "pooled_sampling_um_zyx": [
+              9.604,
+              9.604,
+              9.604
+            ],
+            "physical_width_height_mm": [
+              4.917248,
+              4.917248
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              1,
+              109
+            ],
+            "nominal_surface_source_index": 54.0,
+            "label_sha256": {
+              "inklabels": "8d6cd7b8407ed41b68358a2a0e6628d8fa29cf3e8ef0c6e505dc8adeb77f6ca9",
+              "supervision": "fb8a4c48acfb8eaef83b2574ecec0d23c99261324c1864fb28d0881c2b1f587f"
+            },
+            "xywh_level2": [
+              2560,
+              5376,
+              512,
+              512
+            ],
+            "order_index": 409,
+            "coverage": 1.0,
+            "supervised_pixels": 147456,
+            "ink_pixels": 53234,
+            "background_pixels": 94222,
+            "surface_xyz_bbox": [
+              [
+                14387.5576171875,
+                15746.3642578125,
+                26455.48828125
+              ],
+              [
+                16391.224609375,
+                16506.416015625,
+                28575.734375
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                14331.5576171875,
+                15690.3642578125,
+                26399.48828125
+              ],
+              [
+                16447.224609375,
+                16562.416015625,
+                28631.734375
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              512,
+              1075,
+              616,
+              1179
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/89"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0009B",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 104546,
+              "etag": "\"40826bf4e632880592c3b4338dd81031\""
+            },
+            {
+              "sample": "PHerc0009B",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 64745,
+              "etag": "\"23eddf519d0420c55286cdaa1df47f2f\""
+            }
+          ]
+        },
+        "sampling_um": 2.4,
+        "three_d": false,
+        "reverse": false,
+        "roi_xyxy": [
+          144,
+          144,
+          208,
+          208
+        ],
+        "batch_size": 1,
+        "order": [
+          "full",
+          "roi",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_2.4um.pth",
+          "sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+          "bytes": 522656918
+        }
+      },
+      "input_shape": [
+        64,
+        512,
+        512
+      ],
+      "measurements": {
+        "full": {
+          "seconds": 76.87043258384801,
+          "neural_tiles": 9,
+          "neural_batches": 9,
+          "detail": {}
+        },
+        "roi": {
+          "seconds": 33.48334362497553,
+          "neural_tiles": 4,
+          "neural_batches": 4,
+          "detail": {
+            "shape_zyx": [
+              64,
+              512,
+              512
+            ],
+            "patch_size": [
+              64,
+              256,
+              256
+            ],
+            "roi_xyxy": [
+              144,
+              144,
+              208,
+              208
+            ],
+            "stride": 128,
+            "batch_size": 1,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 1,
+                "origins": [
+                  [
+                    0,
+                    128
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    128,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 4,
+                "origins": [
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 4,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              384,
+              384
+            ],
+            "temporary_2d_bytes": 32768,
+            "temporary_3d_bytes": 1064960,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 4,
+            "neural_batches": 4,
+            "source_voxels_read_including_overlap": 16777216,
+            "elapsed_seconds": 33.48245891695842,
+            "output_dimensions": "YX",
+            "reverse_z": false,
+            "evaluated_z_interval": [
+              1,
+              63
+            ],
+            "output_origin_in_source_xyz": [
+              144,
+              144,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "naive": {
+          "seconds": 7.686267541954294,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "full": {
+          "path": "runs/hecate-roi/case-00/full.npy",
+          "sha256": "a601f528333c48502912505ccc3bbc82869ebf74e0984bd7a8dd8ac66f65a6cc",
+          "bytes": 262272
+        },
+        "roi": {
+          "path": "runs/hecate-roi/case-00/roi.npy",
+          "sha256": "5d4bca11a71fcb16c177585d50060daa8eec15973f74c9043866326ff1948ebd",
+          "bytes": 4224
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-00/naive.npy",
+          "sha256": "dd3cc086f1bbbdfe91d16be758f0a20094aae8659a0bce65abf01a7ab4c8dafa",
+          "bytes": 4224
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 3944,
+        "fraction_different": 0.962890625,
+        "maximum_code_error": 169,
+        "mean_absolute_code_error": 36.142333984375
+      },
+      "full_over_roi_seconds": 2.295781253055912,
+      "temporary_accumulator_reduction": 64.0,
+      "elapsed_seconds": 130.80512637505308,
+      "peak_RSS_bytes": 6519291904
+    },
+    {
+      "status": "completed",
+      "case": {
+        "index": 1,
+        "sample": "PHerc0500P2",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+          "sha256": "ac966d6527c028613b6285106989384532b51569151f0ccc0274c7930d816f29",
+          "bytes": 14258304
+        },
+        "source_geometry": {
+          "id": "pherc0500p2-final-test",
+          "sample": "PHerc0500P2",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 5339,
+            "coarse_selection_negative_pixels": 3877,
+            "coarse_selection_supervised_pixels": 9216,
+            "eligible_candidates": 42
+          },
+          "xywh_level0": [
+            4864,
+            17152,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.215,
+            2.215,
+            2.215
+          ],
+          "nominal_surface_source_index": 58.5,
+          "depth": 118,
+          "source_region": {
+            "id": "pherc0500p2-final-test",
+            "role": "final_test",
+            "sample": "PHerc0500P2",
+            "segment": "20250825181859--1",
+            "volume_id": "20250526151718",
+            "surface_path": "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/",
+            "target_mesh_prefix": "PHerc0500P2/segments/20250825181859--1/mesh/20250825181859-on-20250526151718-2.215um.tifxyz/",
+            "source_shape_zyx_level2": [
+              118,
+              6190,
+              3470
+            ],
+            "source_sampling_um_zyx": [
+              2.215,
+              8.86,
+              8.86
+            ],
+            "pooled_sampling_um_zyx": [
+              8.86,
+              8.86,
+              8.86
+            ],
+            "physical_width_height_mm": [
+              4.53632,
+              4.53632
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              5,
+              113
+            ],
+            "nominal_surface_source_index": 58.5,
+            "label_sha256": {
+              "inklabels": "1dc3cdd5289702c08bcef7302aceb0301c04ad9177fdd2b08aafa3464518988a",
+              "supervision": "3b3f6824a550de4cf76c4acd0a5648e75406bc02bb770cdf5262be7683c19b1e"
+            },
+            "xywh_level2": [
+              1024,
+              4096,
+              512,
+              512
+            ],
+            "order_index": 196,
+            "coverage": 0.9357164171006944,
+            "supervised_pixels": 137977,
+            "ink_pixels": 35902,
+            "background_pixels": 102075,
+            "surface_xyz_bbox": [
+              [
+                9773.4912109375,
+                8789.845703125,
+                18426.03515625
+              ],
+              [
+                11930.7431640625,
+                9973.935546875,
+                20364.251953125
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                9712.9912109375,
+                8729.345703125,
+                18365.53515625
+              ],
+              [
+                11991.2431640625,
+                10034.435546875,
+                20424.751953125
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              204,
+              819,
+              309,
+              923
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/41"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0500P2",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 57745,
+              "etag": "\"2eddcd421e2656d72aa6a17128c56bb2\""
+            },
+            {
+              "sample": "PHerc0500P2",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 100732,
+              "etag": "\"83604d3f1d8cd2caacadebaf952404c5\""
+            }
+          ]
+        },
+        "sampling_um": 2.4,
+        "three_d": false,
+        "reverse": false,
+        "roi_xyxy": [
+          144,
+          144,
+          208,
+          208
+        ],
+        "batch_size": 1,
+        "order": [
+          "roi",
+          "full",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_2.4um.pth",
+          "sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+          "bytes": 522656918
+        }
+      },
+      "input_shape": [
+        64,
+        472,
+        472
+      ],
+      "measurements": {
+        "roi": {
+          "seconds": 33.67932229186408,
+          "neural_tiles": 4,
+          "neural_batches": 4,
+          "detail": {
+            "shape_zyx": [
+              64,
+              472,
+              472
+            ],
+            "patch_size": [
+              64,
+              256,
+              256
+            ],
+            "roi_xyxy": [
+              144,
+              144,
+              208,
+              208
+            ],
+            "stride": 128,
+            "batch_size": 1,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 1,
+                "origins": [
+                  [
+                    0,
+                    128
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    128,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 4,
+                "origins": [
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 4,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              384,
+              384
+            ],
+            "temporary_2d_bytes": 32768,
+            "temporary_3d_bytes": 1064960,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 4,
+            "neural_batches": 4,
+            "source_voxels_read_including_overlap": 16777216,
+            "elapsed_seconds": 33.67808333411813,
+            "output_dimensions": "YX",
+            "reverse_z": false,
+            "evaluated_z_interval": [
+              1,
+              63
+            ],
+            "output_origin_in_source_xyz": [
+              144,
+              144,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "full": {
+          "seconds": 73.51165970810689,
+          "neural_tiles": 9,
+          "neural_batches": 9,
+          "detail": {}
+        },
+        "naive": {
+          "seconds": 8.131886624963954,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "roi": {
+          "path": "runs/hecate-roi/case-01/roi.npy",
+          "sha256": "a78422ab4ff9e8f6430b63af78961e642b4165b9c4fde0e05337f3dab74349a5",
+          "bytes": 4224
+        },
+        "full": {
+          "path": "runs/hecate-roi/case-01/full.npy",
+          "sha256": "092fcc3273b29bb73843a3e8ed896ffe8860e8b16a698ce7d5c98bb19b14e4a9",
+          "bytes": 222912
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-01/naive.npy",
+          "sha256": "e3c3085bcd2627b070b62a52dd8a885b0e0e49740d7dfcfbe9c328cd7857a93f",
+          "bytes": 4224
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 4094,
+        "fraction_different": 0.99951171875,
+        "maximum_code_error": 129,
+        "mean_absolute_code_error": 24.983154296875
+      },
+      "full_over_roi_seconds": 2.182694148981291,
+      "temporary_accumulator_reduction": 54.390625,
+      "elapsed_seconds": 126.27791533409618,
+      "peak_RSS_bytes": 7242776576
+    },
+    {
+      "status": "completed",
+      "case": {
+        "index": 2,
+        "sample": "PHerc0009B",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ct.npy",
+          "sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+          "bytes": 16777344
+        },
+        "source_geometry": {
+          "id": "pherc0009b-final-test",
+          "sample": "PHerc0009B",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 6840,
+            "coarse_selection_negative_pixels": 2375,
+            "coarse_selection_supervised_pixels": 9215,
+            "eligible_candidates": 63
+          },
+          "xywh_level0": [
+            11008,
+            22272,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.401,
+            2.401,
+            2.401
+          ],
+          "nominal_surface_source_index": 54.0,
+          "depth": 109,
+          "source_region": {
+            "id": "pherc0009b-final-test",
+            "role": "final_test",
+            "sample": "PHerc0009B",
+            "segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+            "volume_id": "20250820154339",
+            "surface_path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/",
+            "target_mesh_prefix": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz/",
+            "source_shape_zyx_level2": [
+              109,
+              6340,
+              5130
+            ],
+            "source_sampling_um_zyx": [
+              2.401,
+              9.604,
+              9.604
+            ],
+            "pooled_sampling_um_zyx": [
+              9.604,
+              9.604,
+              9.604
+            ],
+            "physical_width_height_mm": [
+              4.917248,
+              4.917248
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              1,
+              109
+            ],
+            "nominal_surface_source_index": 54.0,
+            "label_sha256": {
+              "inklabels": "8d6cd7b8407ed41b68358a2a0e6628d8fa29cf3e8ef0c6e505dc8adeb77f6ca9",
+              "supervision": "fb8a4c48acfb8eaef83b2574ecec0d23c99261324c1864fb28d0881c2b1f587f"
+            },
+            "xywh_level2": [
+              2560,
+              5376,
+              512,
+              512
+            ],
+            "order_index": 409,
+            "coverage": 1.0,
+            "supervised_pixels": 147456,
+            "ink_pixels": 53234,
+            "background_pixels": 94222,
+            "surface_xyz_bbox": [
+              [
+                14387.5576171875,
+                15746.3642578125,
+                26455.48828125
+              ],
+              [
+                16391.224609375,
+                16506.416015625,
+                28575.734375
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                14331.5576171875,
+                15690.3642578125,
+                26399.48828125
+              ],
+              [
+                16447.224609375,
+                16562.416015625,
+                28631.734375
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              512,
+              1075,
+              616,
+              1179
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/89"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0009B",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 104546,
+              "etag": "\"40826bf4e632880592c3b4338dd81031\""
+            },
+            {
+              "sample": "PHerc0009B",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 64745,
+              "etag": "\"23eddf519d0420c55286cdaa1df47f2f\""
+            }
+          ]
+        },
+        "sampling_um": 2.4,
+        "three_d": true,
+        "reverse": true,
+        "roi_xyxy": [
+          144,
+          144,
+          208,
+          208
+        ],
+        "batch_size": 1,
+        "order": [
+          "full",
+          "roi",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_2.4um.pth",
+          "sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+          "bytes": 522656918
+        }
+      },
+      "input_shape": [
+        64,
+        512,
+        512
+      ],
+      "measurements": {
+        "full": {
+          "seconds": 74.25825283396989,
+          "neural_tiles": 9,
+          "neural_batches": 9,
+          "detail": {}
+        },
+        "roi": {
+          "seconds": 33.0153889588546,
+          "neural_tiles": 4,
+          "neural_batches": 4,
+          "detail": {
+            "shape_zyx": [
+              64,
+              512,
+              512
+            ],
+            "patch_size": [
+              64,
+              256,
+              256
+            ],
+            "roi_xyxy": [
+              144,
+              144,
+              208,
+              208
+            ],
+            "stride": 128,
+            "batch_size": 1,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 1,
+                "origins": [
+                  [
+                    0,
+                    128
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    128,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 4,
+                "origins": [
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 4,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              384,
+              384
+            ],
+            "temporary_2d_bytes": 32768,
+            "temporary_3d_bytes": 1064960,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 4,
+            "neural_batches": 4,
+            "source_voxels_read_including_overlap": 16777216,
+            "elapsed_seconds": 33.01420533307828,
+            "output_dimensions": "ZYX",
+            "reverse_z": true,
+            "evaluated_z_interval": [
+              1,
+              63
+            ],
+            "output_origin_in_source_xyz": [
+              144,
+              144,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "naive": {
+          "seconds": 7.860802333801985,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "full": {
+          "path": "runs/hecate-roi/case-02/full.npy",
+          "sha256": "016dc80d470e0b1bd1be2af5fa4b09b4927a9998c2f0c9935def4d4f73ce510c",
+          "bytes": 16777344
+        },
+        "roi": {
+          "path": "runs/hecate-roi/case-02/roi.npy",
+          "sha256": "70df6a5f8506811948068527f0a9a8d54458cebac98eeea0989cd5bcf9293033",
+          "bytes": 262272
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-02/naive.npy",
+          "sha256": "641fa0cb7df7fb5d405e02c03d24fb2f9ba5495ccba8dcdd521928e4618e651f",
+          "bytes": 262272
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 59074,
+        "fraction_different": 0.22534942626953125,
+        "maximum_code_error": 10,
+        "mean_absolute_code_error": 0.272674560546875
+      },
+      "full_over_roi_seconds": 2.249201211184099,
+      "temporary_accumulator_reduction": 64.0,
+      "elapsed_seconds": 127.50321474997327,
+      "peak_RSS_bytes": 6444171264
+    },
+    {
+      "status": "completed",
+      "case": {
+        "index": 3,
+        "sample": "PHerc0500P2",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+          "sha256": "ac966d6527c028613b6285106989384532b51569151f0ccc0274c7930d816f29",
+          "bytes": 14258304
+        },
+        "source_geometry": {
+          "id": "pherc0500p2-final-test",
+          "sample": "PHerc0500P2",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 5339,
+            "coarse_selection_negative_pixels": 3877,
+            "coarse_selection_supervised_pixels": 9216,
+            "eligible_candidates": 42
+          },
+          "xywh_level0": [
+            4864,
+            17152,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.215,
+            2.215,
+            2.215
+          ],
+          "nominal_surface_source_index": 58.5,
+          "depth": 118,
+          "source_region": {
+            "id": "pherc0500p2-final-test",
+            "role": "final_test",
+            "sample": "PHerc0500P2",
+            "segment": "20250825181859--1",
+            "volume_id": "20250526151718",
+            "surface_path": "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/",
+            "target_mesh_prefix": "PHerc0500P2/segments/20250825181859--1/mesh/20250825181859-on-20250526151718-2.215um.tifxyz/",
+            "source_shape_zyx_level2": [
+              118,
+              6190,
+              3470
+            ],
+            "source_sampling_um_zyx": [
+              2.215,
+              8.86,
+              8.86
+            ],
+            "pooled_sampling_um_zyx": [
+              8.86,
+              8.86,
+              8.86
+            ],
+            "physical_width_height_mm": [
+              4.53632,
+              4.53632
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              5,
+              113
+            ],
+            "nominal_surface_source_index": 58.5,
+            "label_sha256": {
+              "inklabels": "1dc3cdd5289702c08bcef7302aceb0301c04ad9177fdd2b08aafa3464518988a",
+              "supervision": "3b3f6824a550de4cf76c4acd0a5648e75406bc02bb770cdf5262be7683c19b1e"
+            },
+            "xywh_level2": [
+              1024,
+              4096,
+              512,
+              512
+            ],
+            "order_index": 196,
+            "coverage": 0.9357164171006944,
+            "supervised_pixels": 137977,
+            "ink_pixels": 35902,
+            "background_pixels": 102075,
+            "surface_xyz_bbox": [
+              [
+                9773.4912109375,
+                8789.845703125,
+                18426.03515625
+              ],
+              [
+                11930.7431640625,
+                9973.935546875,
+                20364.251953125
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                9712.9912109375,
+                8729.345703125,
+                18365.53515625
+              ],
+              [
+                11991.2431640625,
+                10034.435546875,
+                20424.751953125
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              204,
+              819,
+              309,
+              923
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/41"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0500P2",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 57745,
+              "etag": "\"2eddcd421e2656d72aa6a17128c56bb2\""
+            },
+            {
+              "sample": "PHerc0500P2",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 100732,
+              "etag": "\"83604d3f1d8cd2caacadebaf952404c5\""
+            }
+          ]
+        },
+        "sampling_um": 2.4,
+        "three_d": true,
+        "reverse": false,
+        "roi_xyxy": [
+          144,
+          144,
+          208,
+          208
+        ],
+        "batch_size": 1,
+        "order": [
+          "roi",
+          "full",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_2.4um.pth",
+          "sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+          "bytes": 522656918
+        }
+      },
+      "input_shape": [
+        64,
+        472,
+        472
+      ],
+      "measurements": {
+        "roi": {
+          "seconds": 32.1038365829736,
+          "neural_tiles": 4,
+          "neural_batches": 4,
+          "detail": {
+            "shape_zyx": [
+              64,
+              472,
+              472
+            ],
+            "patch_size": [
+              64,
+              256,
+              256
+            ],
+            "roi_xyxy": [
+              144,
+              144,
+              208,
+              208
+            ],
+            "stride": 128,
+            "batch_size": 1,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 1,
+                "origins": [
+                  [
+                    0,
+                    128
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    128,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 4,
+                "origins": [
+                  [
+                    128,
+                    128
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 4,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              384,
+              384
+            ],
+            "temporary_2d_bytes": 32768,
+            "temporary_3d_bytes": 1064960,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 4,
+            "neural_batches": 4,
+            "source_voxels_read_including_overlap": 16777216,
+            "elapsed_seconds": 32.10183575004339,
+            "output_dimensions": "ZYX",
+            "reverse_z": false,
+            "evaluated_z_interval": [
+              1,
+              63
+            ],
+            "output_origin_in_source_xyz": [
+              144,
+              144,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "full": {
+          "seconds": 78.17945695808157,
+          "neural_tiles": 9,
+          "neural_batches": 9,
+          "detail": {}
+        },
+        "naive": {
+          "seconds": 8.058450791984797,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "roi": {
+          "path": "runs/hecate-roi/case-03/roi.npy",
+          "sha256": "94346e92d57d48ed5abedafb4a6c55508bec0861d44cc3ff76727dc5a871f9a2",
+          "bytes": 262272
+        },
+        "full": {
+          "path": "runs/hecate-roi/case-03/full.npy",
+          "sha256": "90a9e7a28260a0f50ab61d962a19a2d07a00fbe2ce797162e4e311bbf716aff6",
+          "bytes": 14258304
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-03/naive.npy",
+          "sha256": "984af472631d895138efacd8d7a6acd4e415cbecb1c4ca6d2561d135ca92071d",
+          "bytes": 262272
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 100724,
+        "fraction_different": 0.3842315673828125,
+        "maximum_code_error": 162,
+        "mean_absolute_code_error": 3.6491317749023438
+      },
+      "full_over_roi_seconds": 2.4352060463559786,
+      "temporary_accumulator_reduction": 54.390625,
+      "elapsed_seconds": 129.78943237499334,
+      "peak_RSS_bytes": 6548832256
+    },
+    {
+      "status": "completed",
+      "case": {
+        "index": 4,
+        "sample": "PHerc0009B",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ct.npy",
+          "sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+          "bytes": 16777344
+        },
+        "source_geometry": {
+          "id": "pherc0009b-final-test",
+          "sample": "PHerc0009B",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 6840,
+            "coarse_selection_negative_pixels": 2375,
+            "coarse_selection_supervised_pixels": 9215,
+            "eligible_candidates": 63
+          },
+          "xywh_level0": [
+            11008,
+            22272,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.401,
+            2.401,
+            2.401
+          ],
+          "nominal_surface_source_index": 54.0,
+          "depth": 109,
+          "source_region": {
+            "id": "pherc0009b-final-test",
+            "role": "final_test",
+            "sample": "PHerc0009B",
+            "segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+            "volume_id": "20250820154339",
+            "surface_path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/",
+            "target_mesh_prefix": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz/",
+            "source_shape_zyx_level2": [
+              109,
+              6340,
+              5130
+            ],
+            "source_sampling_um_zyx": [
+              2.401,
+              9.604,
+              9.604
+            ],
+            "pooled_sampling_um_zyx": [
+              9.604,
+              9.604,
+              9.604
+            ],
+            "physical_width_height_mm": [
+              4.917248,
+              4.917248
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              1,
+              109
+            ],
+            "nominal_surface_source_index": 54.0,
+            "label_sha256": {
+              "inklabels": "8d6cd7b8407ed41b68358a2a0e6628d8fa29cf3e8ef0c6e505dc8adeb77f6ca9",
+              "supervision": "fb8a4c48acfb8eaef83b2574ecec0d23c99261324c1864fb28d0881c2b1f587f"
+            },
+            "xywh_level2": [
+              2560,
+              5376,
+              512,
+              512
+            ],
+            "order_index": 409,
+            "coverage": 1.0,
+            "supervised_pixels": 147456,
+            "ink_pixels": 53234,
+            "background_pixels": 94222,
+            "surface_xyz_bbox": [
+              [
+                14387.5576171875,
+                15746.3642578125,
+                26455.48828125
+              ],
+              [
+                16391.224609375,
+                16506.416015625,
+                28575.734375
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                14331.5576171875,
+                15690.3642578125,
+                26399.48828125
+              ],
+              [
+                16447.224609375,
+                16562.416015625,
+                28631.734375
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              512,
+              1075,
+              616,
+              1179
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/89"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0009B",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 104546,
+              "etag": "\"40826bf4e632880592c3b4338dd81031\""
+            },
+            {
+              "sample": "PHerc0009B",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 64745,
+              "etag": "\"23eddf519d0420c55286cdaa1df47f2f\""
+            }
+          ]
+        },
+        "sampling_um": 9.6,
+        "three_d": false,
+        "reverse": false,
+        "roi_xyxy": [
+          36,
+          36,
+          52,
+          52
+        ],
+        "batch_size": 1,
+        "order": [
+          "full",
+          "roi",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_9.6um.pth",
+          "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+          "bytes": 522576086
+        }
+      },
+      "input_shape": [
+        16,
+        128,
+        128
+      ],
+      "measurements": {
+        "full": {
+          "seconds": 12.180829209042713,
+          "neural_tiles": 9,
+          "neural_batches": 9,
+          "detail": {}
+        },
+        "roi": {
+          "seconds": 5.549941000062972,
+          "neural_tiles": 4,
+          "neural_batches": 4,
+          "detail": {
+            "shape_zyx": [
+              16,
+              128,
+              128
+            ],
+            "patch_size": [
+              16,
+              64,
+              64
+            ],
+            "roi_xyxy": [
+              36,
+              36,
+              52,
+              52
+            ],
+            "stride": 32,
+            "batch_size": 1,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 1,
+                "origins": [
+                  [
+                    0,
+                    32
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    32,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 4,
+                "origins": [
+                  [
+                    32,
+                    32
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 4,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              96,
+              96
+            ],
+            "temporary_2d_bytes": 2048,
+            "temporary_3d_bytes": 17408,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 4,
+            "neural_batches": 4,
+            "source_voxels_read_including_overlap": 262144,
+            "elapsed_seconds": 5.549752207938582,
+            "output_dimensions": "YX",
+            "reverse_z": false,
+            "evaluated_z_interval": [
+              0,
+              16
+            ],
+            "output_origin_in_source_xyz": [
+              36,
+              36,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "naive": {
+          "seconds": 1.3461980421561748,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "full": {
+          "path": "runs/hecate-roi/case-04/full.npy",
+          "sha256": "828cbee9bc519d8e5aab71eb8ee39c00e3cc1774c537ca96c64bd4108a4bbf9a",
+          "bytes": 16512
+        },
+        "roi": {
+          "path": "runs/hecate-roi/case-04/roi.npy",
+          "sha256": "9d4520ce9be426193b992979fb4dc041fb5329dce79077185d3398e3e7870aa4",
+          "bytes": 384
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-04/naive.npy",
+          "sha256": "fa55a3348c30bbe29da3fb221115b8a43e1ed6d92c0a3a310902658dc64d6874",
+          "bytes": 384
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 241,
+        "fraction_different": 0.94140625,
+        "maximum_code_error": 146,
+        "mean_absolute_code_error": 28.68359375
+      },
+      "full_over_roi_seconds": 2.1947673333652564,
+      "temporary_accumulator_reduction": 64.0,
+      "elapsed_seconds": 23.05018504196778,
+      "peak_RSS_bytes": 3107667968
+    },
+    {
+      "status": "completed",
+      "case": {
+        "index": 5,
+        "sample": "PHerc0500P2",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+          "sha256": "ac966d6527c028613b6285106989384532b51569151f0ccc0274c7930d816f29",
+          "bytes": 14258304
+        },
+        "source_geometry": {
+          "id": "pherc0500p2-final-test",
+          "sample": "PHerc0500P2",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 5339,
+            "coarse_selection_negative_pixels": 3877,
+            "coarse_selection_supervised_pixels": 9216,
+            "eligible_candidates": 42
+          },
+          "xywh_level0": [
+            4864,
+            17152,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.215,
+            2.215,
+            2.215
+          ],
+          "nominal_surface_source_index": 58.5,
+          "depth": 118,
+          "source_region": {
+            "id": "pherc0500p2-final-test",
+            "role": "final_test",
+            "sample": "PHerc0500P2",
+            "segment": "20250825181859--1",
+            "volume_id": "20250526151718",
+            "surface_path": "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/",
+            "target_mesh_prefix": "PHerc0500P2/segments/20250825181859--1/mesh/20250825181859-on-20250526151718-2.215um.tifxyz/",
+            "source_shape_zyx_level2": [
+              118,
+              6190,
+              3470
+            ],
+            "source_sampling_um_zyx": [
+              2.215,
+              8.86,
+              8.86
+            ],
+            "pooled_sampling_um_zyx": [
+              8.86,
+              8.86,
+              8.86
+            ],
+            "physical_width_height_mm": [
+              4.53632,
+              4.53632
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              5,
+              113
+            ],
+            "nominal_surface_source_index": 58.5,
+            "label_sha256": {
+              "inklabels": "1dc3cdd5289702c08bcef7302aceb0301c04ad9177fdd2b08aafa3464518988a",
+              "supervision": "3b3f6824a550de4cf76c4acd0a5648e75406bc02bb770cdf5262be7683c19b1e"
+            },
+            "xywh_level2": [
+              1024,
+              4096,
+              512,
+              512
+            ],
+            "order_index": 196,
+            "coverage": 0.9357164171006944,
+            "supervised_pixels": 137977,
+            "ink_pixels": 35902,
+            "background_pixels": 102075,
+            "surface_xyz_bbox": [
+              [
+                9773.4912109375,
+                8789.845703125,
+                18426.03515625
+              ],
+              [
+                11930.7431640625,
+                9973.935546875,
+                20364.251953125
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                9712.9912109375,
+                8729.345703125,
+                18365.53515625
+              ],
+              [
+                11991.2431640625,
+                10034.435546875,
+                20424.751953125
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              204,
+              819,
+              309,
+              923
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/41"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0500P2",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 57745,
+              "etag": "\"2eddcd421e2656d72aa6a17128c56bb2\""
+            },
+            {
+              "sample": "PHerc0500P2",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 100732,
+              "etag": "\"83604d3f1d8cd2caacadebaf952404c5\""
+            }
+          ]
+        },
+        "sampling_um": 9.6,
+        "three_d": false,
+        "reverse": true,
+        "roi_xyxy": [
+          36,
+          36,
+          52,
+          52
+        ],
+        "batch_size": 3,
+        "order": [
+          "roi",
+          "full",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_9.6um.pth",
+          "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+          "bytes": 522576086
+        }
+      },
+      "input_shape": [
+        16,
+        118,
+        118
+      ],
+      "measurements": {
+        "roi": {
+          "seconds": 12.38100799988024,
+          "neural_tiles": 6,
+          "neural_batches": 2,
+          "detail": {
+            "shape_zyx": [
+              16,
+              118,
+              118
+            ],
+            "patch_size": [
+              16,
+              64,
+              64
+            ],
+            "roi_xyxy": [
+              36,
+              36,
+              52,
+              52
+            ],
+            "stride": 32,
+            "batch_size": 3,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    32
+                  ],
+                  [
+                    0,
+                    54
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    32,
+                    0
+                  ],
+                  [
+                    32,
+                    32
+                  ],
+                  [
+                    32,
+                    54
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 6,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              118,
+              96
+            ],
+            "temporary_2d_bytes": 2048,
+            "temporary_3d_bytes": 17408,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 6,
+            "neural_batches": 2,
+            "source_voxels_read_including_overlap": 393216,
+            "elapsed_seconds": 12.380615832982585,
+            "output_dimensions": "YX",
+            "reverse_z": true,
+            "evaluated_z_interval": [
+              0,
+              16
+            ],
+            "output_origin_in_source_xyz": [
+              36,
+              36,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "full": {
+          "seconds": 17.364035041071475,
+          "neural_tiles": 9,
+          "neural_batches": 3,
+          "detail": {}
+        },
+        "naive": {
+          "seconds": 1.7201130839530379,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "roi": {
+          "path": "runs/hecate-roi/case-05/roi.npy",
+          "sha256": "2d08e9e52bbe7a962929aeb3d76b9dba83bd2afe9ff8ffa39035e27f6265e7d3",
+          "bytes": 384
+        },
+        "full": {
+          "path": "runs/hecate-roi/case-05/full.npy",
+          "sha256": "7863a307f41c184d2f41b96a7bebf3f54557d9d5527c32a5f039c097411fddc6",
+          "bytes": 14052
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-05/naive.npy",
+          "sha256": "e8b24095ca8cef201fbdd797a24916da5fc6ee24716d266b53ebb0d7aaa8a56b",
+          "bytes": 384
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 256,
+        "fraction_different": 1.0,
+        "maximum_code_error": 19,
+        "mean_absolute_code_error": 7.0234375
+      },
+      "full_over_roi_seconds": 1.4024734529885963,
+      "temporary_accumulator_reduction": 54.390625,
+      "elapsed_seconds": 35.369870875030756,
+      "peak_RSS_bytes": 5934415872
+    },
+    {
+      "status": "completed",
+      "case": {
+        "index": 6,
+        "sample": "PHerc0009B",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ct.npy",
+          "sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+          "bytes": 16777344
+        },
+        "source_geometry": {
+          "id": "pherc0009b-final-test",
+          "sample": "PHerc0009B",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 6840,
+            "coarse_selection_negative_pixels": 2375,
+            "coarse_selection_supervised_pixels": 9215,
+            "eligible_candidates": 63
+          },
+          "xywh_level0": [
+            11008,
+            22272,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.401,
+            2.401,
+            2.401
+          ],
+          "nominal_surface_source_index": 54.0,
+          "depth": 109,
+          "source_region": {
+            "id": "pherc0009b-final-test",
+            "role": "final_test",
+            "sample": "PHerc0009B",
+            "segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+            "volume_id": "20250820154339",
+            "surface_path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/",
+            "target_mesh_prefix": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz/",
+            "source_shape_zyx_level2": [
+              109,
+              6340,
+              5130
+            ],
+            "source_sampling_um_zyx": [
+              2.401,
+              9.604,
+              9.604
+            ],
+            "pooled_sampling_um_zyx": [
+              9.604,
+              9.604,
+              9.604
+            ],
+            "physical_width_height_mm": [
+              4.917248,
+              4.917248
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              1,
+              109
+            ],
+            "nominal_surface_source_index": 54.0,
+            "label_sha256": {
+              "inklabels": "8d6cd7b8407ed41b68358a2a0e6628d8fa29cf3e8ef0c6e505dc8adeb77f6ca9",
+              "supervision": "fb8a4c48acfb8eaef83b2574ecec0d23c99261324c1864fb28d0881c2b1f587f"
+            },
+            "xywh_level2": [
+              2560,
+              5376,
+              512,
+              512
+            ],
+            "order_index": 409,
+            "coverage": 1.0,
+            "supervised_pixels": 147456,
+            "ink_pixels": 53234,
+            "background_pixels": 94222,
+            "surface_xyz_bbox": [
+              [
+                14387.5576171875,
+                15746.3642578125,
+                26455.48828125
+              ],
+              [
+                16391.224609375,
+                16506.416015625,
+                28575.734375
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                14331.5576171875,
+                15690.3642578125,
+                26399.48828125
+              ],
+              [
+                16447.224609375,
+                16562.416015625,
+                28631.734375
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              512,
+              1075,
+              616,
+              1179
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/174/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/175/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/176/89",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/86",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/87",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/88",
+            "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/0/0/177/89"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0009B",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 104546,
+              "etag": "\"40826bf4e632880592c3b4338dd81031\""
+            },
+            {
+              "sample": "PHerc0009B",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 64745,
+              "etag": "\"23eddf519d0420c55286cdaa1df47f2f\""
+            }
+          ]
+        },
+        "sampling_um": 9.6,
+        "three_d": true,
+        "reverse": true,
+        "roi_xyxy": [
+          36,
+          36,
+          52,
+          52
+        ],
+        "batch_size": 1,
+        "order": [
+          "full",
+          "roi",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_9.6um.pth",
+          "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+          "bytes": 522576086
+        }
+      },
+      "input_shape": [
+        16,
+        128,
+        128
+      ],
+      "measurements": {
+        "full": {
+          "seconds": 12.027899082982913,
+          "neural_tiles": 9,
+          "neural_batches": 9,
+          "detail": {}
+        },
+        "roi": {
+          "seconds": 5.436274332925677,
+          "neural_tiles": 4,
+          "neural_batches": 4,
+          "detail": {
+            "shape_zyx": [
+              16,
+              128,
+              128
+            ],
+            "patch_size": [
+              16,
+              64,
+              64
+            ],
+            "roi_xyxy": [
+              36,
+              36,
+              52,
+              52
+            ],
+            "stride": 32,
+            "batch_size": 1,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 1,
+                "origins": [
+                  [
+                    0,
+                    32
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    32,
+                    0
+                  ]
+                ]
+              },
+              {
+                "global_start": 4,
+                "origins": [
+                  [
+                    32,
+                    32
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 4,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              96,
+              96
+            ],
+            "temporary_2d_bytes": 2048,
+            "temporary_3d_bytes": 17408,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 4,
+            "neural_batches": 4,
+            "source_voxels_read_including_overlap": 262144,
+            "elapsed_seconds": 5.435931958025321,
+            "output_dimensions": "ZYX",
+            "reverse_z": true,
+            "evaluated_z_interval": [
+              0,
+              16
+            ],
+            "output_origin_in_source_xyz": [
+              36,
+              36,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "naive": {
+          "seconds": 1.3978440000209957,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "full": {
+          "path": "runs/hecate-roi/case-06/full.npy",
+          "sha256": "459b9598ed3af9278b58c4ac56c9170480a9792bc37bc2355493179cfbb6ec42",
+          "bytes": 262272
+        },
+        "roi": {
+          "path": "runs/hecate-roi/case-06/roi.npy",
+          "sha256": "3b6de84d6569dcc1689d19598c2560ebdbce20e9578fd46ae9450a9f01a6a47d",
+          "bytes": 4224
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-06/naive.npy",
+          "sha256": "ca0552a324712ed475581930f3db01a4674465b67cbf3d821e0217445f58e2d1",
+          "bytes": 4224
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 1798,
+        "fraction_different": 0.43896484375,
+        "maximum_code_error": 94,
+        "mean_absolute_code_error": 1.852783203125
+      },
+      "full_over_roi_seconds": 2.21252614315911,
+      "temporary_accumulator_reduction": 64.0,
+      "elapsed_seconds": 22.983951166970655,
+      "peak_RSS_bytes": 3106619392
+    },
+    {
+      "status": "completed",
+      "case": {
+        "index": 7,
+        "sample": "PHerc0500P2",
+        "input": {
+          "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+          "sha256": "ac966d6527c028613b6285106989384532b51569151f0ccc0274c7930d816f29",
+          "bytes": 14258304
+        },
+        "source_geometry": {
+          "id": "pherc0500p2-final-test",
+          "sample": "PHerc0500P2",
+          "role": "exposed_development_only",
+          "selection": {
+            "xywh_in_old_crop": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "centre_distance_squared": 0,
+            "coarse_selection_positive_pixels": 5339,
+            "coarse_selection_negative_pixels": 3877,
+            "coarse_selection_supervised_pixels": 9216,
+            "eligible_candidates": 42
+          },
+          "xywh_level0": [
+            4864,
+            17152,
+            512,
+            512
+          ],
+          "source_sampling_um_zyx": [
+            2.215,
+            2.215,
+            2.215
+          ],
+          "nominal_surface_source_index": 58.5,
+          "depth": 118,
+          "source_region": {
+            "id": "pherc0500p2-final-test",
+            "role": "final_test",
+            "sample": "PHerc0500P2",
+            "segment": "20250825181859--1",
+            "volume_id": "20250526151718",
+            "surface_path": "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/",
+            "target_mesh_prefix": "PHerc0500P2/segments/20250825181859--1/mesh/20250825181859-on-20250526151718-2.215um.tifxyz/",
+            "source_shape_zyx_level2": [
+              118,
+              6190,
+              3470
+            ],
+            "source_sampling_um_zyx": [
+              2.215,
+              8.86,
+              8.86
+            ],
+            "pooled_sampling_um_zyx": [
+              8.86,
+              8.86,
+              8.86
+            ],
+            "physical_width_height_mm": [
+              4.53632,
+              4.53632
+            ],
+            "evaluation_margin": 64,
+            "source_z_slice": [
+              5,
+              113
+            ],
+            "nominal_surface_source_index": 58.5,
+            "label_sha256": {
+              "inklabels": "1dc3cdd5289702c08bcef7302aceb0301c04ad9177fdd2b08aafa3464518988a",
+              "supervision": "3b3f6824a550de4cf76c4acd0a5648e75406bc02bb770cdf5262be7683c19b1e"
+            },
+            "xywh_level2": [
+              1024,
+              4096,
+              512,
+              512
+            ],
+            "order_index": 196,
+            "coverage": 0.9357164171006944,
+            "supervised_pixels": 137977,
+            "ink_pixels": 35902,
+            "background_pixels": 102075,
+            "surface_xyz_bbox": [
+              [
+                9773.4912109375,
+                8789.845703125,
+                18426.03515625
+              ],
+              [
+                11930.7431640625,
+                9973.935546875,
+                20364.251953125
+              ]
+            ],
+            "sampled_xyz_bbox": [
+              [
+                9712.9912109375,
+                8729.345703125,
+                18365.53515625
+              ],
+              [
+                11991.2431640625,
+                10034.435546875,
+                20424.751953125
+              ]
+            ],
+            "mesh_grid_xy_bounds": [
+              204,
+              819,
+              309,
+              923
+            ]
+          },
+          "chunk_keys": [
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/134/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/135/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/136/41",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/38",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/39",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/40",
+            "PHerc0500P2/segments/20250825181859--1/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/0/0/137/41"
+          ],
+          "labels": [
+            {
+              "sample": "PHerc0500P2",
+              "kind": "inklabels",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/inklabels.zarr/0/c/0/0",
+              "bytes": 57745,
+              "etag": "\"2eddcd421e2656d72aa6a17128c56bb2\""
+            },
+            {
+              "sample": "PHerc0500P2",
+              "kind": "supervision",
+              "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/supervision.zarr/0/c/0/0",
+              "bytes": 100732,
+              "etag": "\"83604d3f1d8cd2caacadebaf952404c5\""
+            }
+          ]
+        },
+        "sampling_um": 9.6,
+        "three_d": true,
+        "reverse": true,
+        "roi_xyxy": [
+          36,
+          36,
+          52,
+          52
+        ],
+        "batch_size": 3,
+        "order": [
+          "roi",
+          "full",
+          "naive"
+        ],
+        "checkpoint": {
+          "path": "data/models/hecate/hecate_9.6um.pth",
+          "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+          "bytes": 522576086
+        }
+      },
+      "input_shape": [
+        16,
+        118,
+        118
+      ],
+      "measurements": {
+        "roi": {
+          "seconds": 11.555468457983807,
+          "neural_tiles": 6,
+          "neural_batches": 2,
+          "detail": {
+            "shape_zyx": [
+              16,
+              118,
+              118
+            ],
+            "patch_size": [
+              16,
+              64,
+              64
+            ],
+            "roi_xyxy": [
+              36,
+              36,
+              52,
+              52
+            ],
+            "stride": 32,
+            "batch_size": 3,
+            "groups": [
+              {
+                "global_start": 0,
+                "origins": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    32
+                  ],
+                  [
+                    0,
+                    54
+                  ]
+                ]
+              },
+              {
+                "global_start": 3,
+                "origins": [
+                  [
+                    32,
+                    0
+                  ],
+                  [
+                    32,
+                    32
+                  ],
+                  [
+                    32,
+                    54
+                  ]
+                ]
+              }
+            ],
+            "full_tiles": 9,
+            "scheduled_tiles": 6,
+            "contributing_tiles": 4,
+            "read_context_xyxy": [
+              0,
+              0,
+              118,
+              96
+            ],
+            "temporary_2d_bytes": 2048,
+            "temporary_3d_bytes": 17408,
+            "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT.",
+            "neural_tiles": 6,
+            "neural_batches": 2,
+            "source_voxels_read_including_overlap": 393216,
+            "elapsed_seconds": 11.554761375067756,
+            "output_dimensions": "ZYX",
+            "reverse_z": true,
+            "evaluated_z_interval": [
+              0,
+              16
+            ],
+            "output_origin_in_source_xyz": [
+              36,
+              36,
+              0
+            ],
+            "outside_evaluated_z": "zero; not evaluated",
+            "probabilities": "uint8 = round(255 * probability); no min-max scaling"
+          }
+        },
+        "full": {
+          "seconds": 17.33363649994135,
+          "neural_tiles": 9,
+          "neural_batches": 3,
+          "detail": {}
+        },
+        "naive": {
+          "seconds": 1.7443533330224454,
+          "neural_tiles": 1,
+          "neural_batches": 1,
+          "detail": {}
+        }
+      },
+      "outputs": {
+        "roi": {
+          "path": "runs/hecate-roi/case-07/roi.npy",
+          "sha256": "857d8eeb034d3232ba33881a801a7d438ced4253a29d0ba140058b3fdde5e298",
+          "bytes": 4224
+        },
+        "full": {
+          "path": "runs/hecate-roi/case-07/full.npy",
+          "sha256": "9bf1493d66a84d085f58fe1865419c7f5ac47321d61cbcfa3c5db4b44205cc72",
+          "bytes": 222912
+        },
+        "naive": {
+          "path": "runs/hecate-roi/case-07/naive.npy",
+          "sha256": "759f33a1091834a5e9e3b7ef8234477927a51148e802b6e9bc4ebdd6c76b2a53",
+          "bytes": 4224
+        }
+      },
+      "regional_difference": {
+        "differing_values": 0,
+        "fraction_different": 0.0,
+        "maximum_code_error": 0,
+        "mean_absolute_code_error": 0.0
+      },
+      "naive_difference": {
+        "differing_values": 2682,
+        "fraction_different": 0.65478515625,
+        "maximum_code_error": 60,
+        "mean_absolute_code_error": 2.7529296875
+      },
+      "full_over_roi_seconds": 1.5000375417896052,
+      "temporary_accumulator_reduction": 54.390625,
+      "elapsed_seconds": 34.65728908381425,
+      "peak_RSS_bytes": 5854560256
+    }
+  ],
+  "gates": {
+    "exact_all_cases": true,
+    "half_neural_work_primary": true,
+    "temporary_reduction_primary": true,
+    "wall_time_primary": true,
+    "naive_discrepancy_primary": true
+  },
+  "all_gates_passed": true,
+  "primary_geometric_mean_speedup": 2.2385236894851204,
+  "plan_sha256": "0f7c3ccf5a185cfc380d2ecdd308c91e7f03a0195abe2af56555752fd2e6c75d",
+  "scope": "Software correctness and efficiency only. The full-surface prediction is an implementation reference, not ground-truth ink. Does not establish better ink recall, a new detector, new text or independent checkpoint generalization.",
+  "validation_role": "Two physically distinct existing real CT fields from PHerc9B and PHerc500P2. They are previously exposed research fields, NOT fresh ink-discovery validation. Geometry-only ROI selection was fixed before this software benchmark. No reserved reading-final regions or labels are used."
+}

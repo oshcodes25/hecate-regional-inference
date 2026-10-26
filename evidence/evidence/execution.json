@@ -1,0 +1,168 @@
+{
+  "completed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "attempts": [
+    {
+      "case": 0,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "0"
+      ],
+      "exit_code": 0,
+      "seconds": 132.459983041,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 26,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t26%; discharging; 2:02 remaining present: true",
+        "lid_closed": false
+      }
+    },
+    {
+      "case": 1,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "1"
+      ],
+      "exit_code": 0,
+      "seconds": 127.905883875,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 24,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t24%; discharging; 1:32 remaining present: true",
+        "lid_closed": false
+      }
+    },
+    {
+      "case": 2,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "2"
+      ],
+      "exit_code": 0,
+      "seconds": 129.188406709,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 23,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t23%; discharging; 1:15 remaining present: true",
+        "lid_closed": false
+      }
+    },
+    {
+      "case": 3,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "3"
+      ],
+      "exit_code": 0,
+      "seconds": 131.37788008299992,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 22,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t22%; discharging; 0:56 remaining present: true",
+        "lid_closed": false
+      }
+    },
+    {
+      "case": 4,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "4"
+      ],
+      "exit_code": 0,
+      "seconds": 24.38354608399993,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 20,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t20%; discharging; 0:42 remaining present: true",
+        "lid_closed": false
+      }
+    },
+    {
+      "case": 5,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "5"
+      ],
+      "exit_code": 0,
+      "seconds": 36.995827083999984,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 20,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t20%; discharging; 0:42 remaining present: true",
+        "lid_closed": false
+      }
+    },
+    {
+      "case": 6,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "6"
+      ],
+      "exit_code": 0,
+      "seconds": 24.369990375000043,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 20,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t20%; discharging; 0:38 remaining present: true",
+        "lid_closed": false
+      }
+    },
+    {
+      "case": 7,
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-u",
+        "/Users/mcglone/vesuvius-challenge/src/benchmark_hecate_roi.py",
+        "worker",
+        "--case",
+        "7"
+      ],
+      "exit_code": 0,
+      "seconds": 36.35543062499994,
+      "initial_power": {
+        "AC": false,
+        "battery_percent": 20,
+        "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t20%; discharging; 0:38 remaining present: true",
+        "lid_closed": false
+      }
+    }
+  ],
+  "worker_seconds": 643.0369478759998,
+  "status": "completed"
+}

@@ -1,0 +1,193 @@
+{
+  "status": "passed",
+  "offline": true,
+  "layouts": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "white": true,
+      "images": [
+        {
+          "src": "assets/full-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/full-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/crop-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/crop-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/regional-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/regional-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/full.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/regional.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/difference.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/tight-crop.png",
+          "width": 64,
+          "alt": true
+        }
+      ],
+      "exampleRows": 3,
+      "allRows": 11,
+      "missingAnchors": 0
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "scrollWidth": 390,
+      "white": true,
+      "images": [
+        {
+          "src": "assets/full-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/full-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/crop-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/crop-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/regional-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/regional-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/full.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/regional.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/difference.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/tight-crop.png",
+          "width": 64,
+          "alt": true
+        }
+      ],
+      "exampleRows": 3,
+      "allRows": 11,
+      "missingAnchors": 0
+    },
+    {
+      "name": "small-mobile",
+      "width": 320,
+      "scrollWidth": 320,
+      "white": true,
+      "images": [
+        {
+          "src": "assets/full-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/full-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/crop-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/crop-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/regional-plan.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/regional-storage.png",
+          "width": 512,
+          "alt": true
+        },
+        {
+          "src": "assets/full.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/regional.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/difference.png",
+          "width": 64,
+          "alt": true
+        },
+        {
+          "src": "assets/tight-crop.png",
+          "width": 64,
+          "alt": true
+        }
+      ],
+      "exampleRows": 3,
+      "allRows": 11,
+      "missingAnchors": 0
+    }
+  ],
+  "links": 17,
+  "exceptions": [],
+  "remoteRequests": [],
+  "modelRuns": 0
+}

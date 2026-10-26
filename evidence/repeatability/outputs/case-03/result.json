@@ -1,0 +1,447 @@
+{
+  "status": "completed",
+  "sample": "PHerc0009B",
+  "sampling_um": 9.6,
+  "reverse": false,
+  "recorded_at": "2026-10-26T07:05:21.975153+00:00",
+  "input_shape": [
+    16,
+    128,
+    128
+  ],
+  "rows": [
+    {
+      "repeat": 0,
+      "method": "full",
+      "region": null,
+      "roi_xyxy": null,
+      "context_xyxy": null,
+      "seconds": 8.625058958074078,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 131072,
+      "output": "0-full.npy",
+      "output_sha256": "828cbee9bc519d8e5aab71eb8ee39c00e3cc1774c537ca96c64bd4108a4bbf9a"
+    },
+    {
+      "repeat": 0,
+      "method": "regional",
+      "region": "edge",
+      "roi_xyxy": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "context_xyxy": null,
+      "seconds": 0.9328874999191612,
+      "neural_tiles": 1,
+      "neural_batches": 1,
+      "temporary_accumulator_bytes": 2048,
+      "output": "0-regional-edge.npy",
+      "output_sha256": "5d1bc1ad71fc42ec6b8e28c16ce1b9856c544fea194ccbb34ee2cfe29651505d",
+      "different_values": 0
+    },
+    {
+      "repeat": 0,
+      "method": "regional",
+      "region": "centre",
+      "roi_xyxy": [
+        36,
+        36,
+        52,
+        52
+      ],
+      "context_xyxy": null,
+      "seconds": 3.7416070410981774,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 2048,
+      "output": "0-regional-centre.npy",
+      "output_sha256": "9d4520ce9be426193b992979fb4dc041fb5329dce79077185d3398e3e7870aa4",
+      "different_values": 0
+    },
+    {
+      "repeat": 0,
+      "method": "regional",
+      "region": "large",
+      "roi_xyxy": [
+        16,
+        16,
+        112,
+        112
+      ],
+      "context_xyxy": null,
+      "seconds": 8.41914991592057,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 73728,
+      "output": "0-regional-large.npy",
+      "output_sha256": "f87d24ea077187399eb7f5f90067faf9720ad9faeeccccfe5201719ddc747ad8",
+      "different_values": 0
+    },
+    {
+      "repeat": 0,
+      "method": "halo",
+      "region": "edge",
+      "roi_xyxy": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "seconds": 0.9511928330175579,
+      "neural_tiles": 1,
+      "neural_batches": 1,
+      "temporary_accumulator_bytes": 32768,
+      "output": "0-halo-edge.npy",
+      "output_sha256": "5d1bc1ad71fc42ec6b8e28c16ce1b9856c544fea194ccbb34ee2cfe29651505d",
+      "different_values": 0
+    },
+    {
+      "repeat": 0,
+      "method": "halo",
+      "region": "centre",
+      "roi_xyxy": [
+        36,
+        36,
+        52,
+        52
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "seconds": 3.67432808293961,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 73728,
+      "output": "0-halo-centre.npy",
+      "output_sha256": "9d4520ce9be426193b992979fb4dc041fb5329dce79077185d3398e3e7870aa4",
+      "different_values": 0
+    },
+    {
+      "repeat": 0,
+      "method": "halo",
+      "region": "large",
+      "roi_xyxy": [
+        16,
+        16,
+        112,
+        112
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "seconds": 9.018803999992087,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 131072,
+      "output": "0-halo-large.npy",
+      "output_sha256": "f87d24ea077187399eb7f5f90067faf9720ad9faeeccccfe5201719ddc747ad8",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "regional",
+      "region": "edge",
+      "roi_xyxy": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "context_xyxy": null,
+      "seconds": 1.0063771659042686,
+      "neural_tiles": 1,
+      "neural_batches": 1,
+      "temporary_accumulator_bytes": 2048,
+      "output": "1-regional-edge.npy",
+      "output_sha256": "5d1bc1ad71fc42ec6b8e28c16ce1b9856c544fea194ccbb34ee2cfe29651505d",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "regional",
+      "region": "centre",
+      "roi_xyxy": [
+        36,
+        36,
+        52,
+        52
+      ],
+      "context_xyxy": null,
+      "seconds": 3.9579620419535786,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 2048,
+      "output": "1-regional-centre.npy",
+      "output_sha256": "9d4520ce9be426193b992979fb4dc041fb5329dce79077185d3398e3e7870aa4",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "regional",
+      "region": "large",
+      "roi_xyxy": [
+        16,
+        16,
+        112,
+        112
+      ],
+      "context_xyxy": null,
+      "seconds": 9.069537250092253,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 73728,
+      "output": "1-regional-large.npy",
+      "output_sha256": "f87d24ea077187399eb7f5f90067faf9720ad9faeeccccfe5201719ddc747ad8",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "halo",
+      "region": "edge",
+      "roi_xyxy": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "seconds": 0.9644446249585599,
+      "neural_tiles": 1,
+      "neural_batches": 1,
+      "temporary_accumulator_bytes": 32768,
+      "output": "1-halo-edge.npy",
+      "output_sha256": "5d1bc1ad71fc42ec6b8e28c16ce1b9856c544fea194ccbb34ee2cfe29651505d",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "halo",
+      "region": "centre",
+      "roi_xyxy": [
+        36,
+        36,
+        52,
+        52
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "seconds": 3.762733208015561,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 73728,
+      "output": "1-halo-centre.npy",
+      "output_sha256": "9d4520ce9be426193b992979fb4dc041fb5329dce79077185d3398e3e7870aa4",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "halo",
+      "region": "large",
+      "roi_xyxy": [
+        16,
+        16,
+        112,
+        112
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "seconds": 9.304180334089324,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 131072,
+      "output": "1-halo-large.npy",
+      "output_sha256": "f87d24ea077187399eb7f5f90067faf9720ad9faeeccccfe5201719ddc747ad8",
+      "different_values": 0
+    },
+    {
+      "repeat": 1,
+      "method": "full",
+      "region": null,
+      "roi_xyxy": null,
+      "context_xyxy": null,
+      "seconds": 8.53368870797567,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 131072,
+      "output": "1-full.npy",
+      "output_sha256": "828cbee9bc519d8e5aab71eb8ee39c00e3cc1774c537ca96c64bd4108a4bbf9a"
+    },
+    {
+      "repeat": 2,
+      "method": "halo",
+      "region": "edge",
+      "roi_xyxy": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "seconds": 0.9620630000717938,
+      "neural_tiles": 1,
+      "neural_batches": 1,
+      "temporary_accumulator_bytes": 32768,
+      "output": "2-halo-edge.npy",
+      "output_sha256": "5d1bc1ad71fc42ec6b8e28c16ce1b9856c544fea194ccbb34ee2cfe29651505d",
+      "different_values": 0
+    },
+    {
+      "repeat": 2,
+      "method": "halo",
+      "region": "centre",
+      "roi_xyxy": [
+        36,
+        36,
+        52,
+        52
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "seconds": 3.8556705000810325,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 73728,
+      "output": "2-halo-centre.npy",
+      "output_sha256": "9d4520ce9be426193b992979fb4dc041fb5329dce79077185d3398e3e7870aa4",
+      "different_values": 0
+    },
+    {
+      "repeat": 2,
+      "method": "halo",
+      "region": "large",
+      "roi_xyxy": [
+        16,
+        16,
+        112,
+        112
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "seconds": 8.579581375000998,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 131072,
+      "output": "2-halo-large.npy",
+      "output_sha256": "f87d24ea077187399eb7f5f90067faf9720ad9faeeccccfe5201719ddc747ad8",
+      "different_values": 0
+    },
+    {
+      "repeat": 2,
+      "method": "full",
+      "region": null,
+      "roi_xyxy": null,
+      "context_xyxy": null,
+      "seconds": 8.574236290995032,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 131072,
+      "output": "2-full.npy",
+      "output_sha256": "828cbee9bc519d8e5aab71eb8ee39c00e3cc1774c537ca96c64bd4108a4bbf9a"
+    },
+    {
+      "repeat": 2,
+      "method": "regional",
+      "region": "edge",
+      "roi_xyxy": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "context_xyxy": null,
+      "seconds": 0.9572053330484778,
+      "neural_tiles": 1,
+      "neural_batches": 1,
+      "temporary_accumulator_bytes": 2048,
+      "output": "2-regional-edge.npy",
+      "output_sha256": "5d1bc1ad71fc42ec6b8e28c16ce1b9856c544fea194ccbb34ee2cfe29651505d",
+      "different_values": 0
+    },
+    {
+      "repeat": 2,
+      "method": "regional",
+      "region": "centre",
+      "roi_xyxy": [
+        36,
+        36,
+        52,
+        52
+      ],
+      "context_xyxy": null,
+      "seconds": 3.8368522501550615,
+      "neural_tiles": 4,
+      "neural_batches": 4,
+      "temporary_accumulator_bytes": 2048,
+      "output": "2-regional-centre.npy",
+      "output_sha256": "9d4520ce9be426193b992979fb4dc041fb5329dce79077185d3398e3e7870aa4",
+      "different_values": 0
+    },
+    {
+      "repeat": 2,
+      "method": "regional",
+      "region": "large",
+      "roi_xyxy": [
+        16,
+        16,
+        112,
+        112
+      ],
+      "context_xyxy": null,
+      "seconds": 8.659661000128835,
+      "neural_tiles": 9,
+      "neural_batches": 9,
+      "temporary_accumulator_bytes": 73728,
+      "output": "2-regional-large.npy",
+      "output_sha256": "f87d24ea077187399eb7f5f90067faf9720ad9faeeccccfe5201719ddc747ad8",
+      "different_values": 0
+    }
+  ],
+  "input_sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+  "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "reader_sha256": "230feb5a577b65f19f1865bff1cb03431efb9c2b80b9467a39da273bbd7404a9",
+  "runtime_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "peak_RSS_bytes": 3043819520,
+  "wall_seconds_excluding_load_warmup": 107.72227279096842,
+  "scope": "CPU float32, batch1, three balanced-order repeats. Existing CT fields; no ink labels or accuracy claim. Speed relative to full inference and correctly selected surrounding-context cropping is reported separately."
+}

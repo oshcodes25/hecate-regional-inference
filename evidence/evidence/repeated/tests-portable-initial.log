@@ -1,0 +1,62 @@
+test_blank_and_edge_regions (test_hecate_roi.RuntimeEquivalenceTests.test_blank_and_edge_regions) ... ok
+test_context_batch_direction_depth_matrix (test_hecate_roi.RuntimeEquivalenceTests.test_context_batch_direction_depth_matrix) ... ok
+test_custom_stride (test_hecate_roi.RuntimeEquivalenceTests.test_custom_stride) ... ok
+test_small_padding_and_full_region (test_hecate_roi.RuntimeEquivalenceTests.test_small_padding_and_full_region) ... ok
+test_training_model_rejected (test_hecate_roi.RuntimeEquivalenceTests.test_training_model_rejected) ... ok
+test_bounds_and_coverage_exhaustively (test_hecate_roi.ScheduleTests.test_bounds_and_coverage_exhaustively) ... ok
+test_invalid_roi (test_hecate_roi.ScheduleTests.test_invalid_roi) ... ok
+test_known_tile_saving (test_hecate_roi.ScheduleTests.test_known_tile_saving) ... ok
+test_partial_end_tile_is_included (test_hecate_roi.ScheduleTests.test_partial_end_tile_is_included) ... ok
+test_roi_uses_original_batch_groups (test_hecate_roi.ScheduleTests.test_roi_uses_original_batch_groups) ... ok
+test_all_values_and_recorded_statistics (test_repeat_verifier.RepeatedEvidenceTests.test_all_values_and_recorded_statistics) ... ERROR
+test_changed_prediction_even_with_updated_hash_is_rejected (test_repeat_verifier.RepeatedEvidenceTests.test_changed_prediction_even_with_updated_hash_is_rejected) ... FAIL
+test_omitted_trial_is_rejected (test_repeat_verifier.RepeatedEvidenceTests.test_omitted_trial_is_rejected) ... FAIL
+test_equivalence_and_tamper_detection (test_standard_verifier.StandardVerifierTests.test_equivalence_and_tamper_detection) ... ok
+test_path_escape (test_standard_verifier.StandardVerifierTests.test_path_escape) ... ok
+test_rejects_bad_layout_and_trailing_bytes (test_standard_verifier.StandardVerifierTests.test_rejects_bad_layout_and_trailing_bytes) ... ok
+test_row_offsets_and_versions (test_standard_verifier.StandardVerifierTests.test_row_offsets_and_versions) ... ok
+
+======================================================================
+ERROR: test_all_values_and_recorded_statistics (test_repeat_verifier.RepeatedEvidenceTests.test_all_values_and_recorded_statistics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-repeated-v3/tests/test_repeat_verifier.py", line 39, in test_all_values_and_recorded_statistics
+    root=Path(folder);case,result=self.fixture(root);counts,rows=check_case(root,case)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-repeated-v3/verify_repeats.py", line 69, in check_case
+    path=result_path.parent/row['output'];path=base.safe_path(root,str(path.relative_to(root)))
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mcglone/.local/share/uv/python/cpython-3.12.15-macos-aarch64-none/lib/python3.12/pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: '/private/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpn3096gle/0-full-None.npy' is not in the subpath of '/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpn3096gle'
+
+======================================================================
+FAIL: test_changed_prediction_even_with_updated_hash_is_rejected (test_repeat_verifier.RepeatedEvidenceTests.test_changed_prediction_even_with_updated_hash_is_rejected)
+----------------------------------------------------------------------
+ValueError: '/private/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpybdu_75v/0-full-None.npy' is not in the subpath of '/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpybdu_75v'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-repeated-v3/tests/test_repeat_verifier.py", line 48, in test_changed_prediction_even_with_updated_hash_is_rejected
+    with self.assertRaisesRegex(ValueError,'Saved prediction differs'):check_case(root,case)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "Saved prediction differs" does not match "'/private/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpybdu_75v/0-full-None.npy' is not in the subpath of '/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpybdu_75v'"
+
+======================================================================
+FAIL: test_omitted_trial_is_rejected (test_repeat_verifier.RepeatedEvidenceTests.test_omitted_trial_is_rejected)
+----------------------------------------------------------------------
+ValueError: '/private/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpn1l0t4va/0-full-None.npy' is not in the subpath of '/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpn1l0t4va'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-repeated-v3/tests/test_repeat_verifier.py", line 53, in test_omitted_trial_is_rejected
+    with self.assertRaisesRegex(ValueError,'Missing or unexpected'):check_case(root,case)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "Missing or unexpected" does not match "'/private/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpn1l0t4va/0-full-None.npy' is not in the subpath of '/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/tmpn1l0t4va'"
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.699s
+
+FAILED (failures=2, errors=1)

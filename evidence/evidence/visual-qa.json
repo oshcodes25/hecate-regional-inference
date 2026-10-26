@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-26T04:08:40.895779+00:00",
+  "scientific_figures_inspected": [
+    "comparison.png",
+    "context.png"
+  ],
+  "desktop_and_mobile_screenshots_inspected": true,
+  "http_browser_check": "browser-check.json",
+  "offline_file_browser_check": "file-qa/browser-check.json",
+  "interactive_checks_per_browser_run": 32,
+  "model_output_canvas_matches": true,
+  "display_limit_changes_rendering_only": true,
+  "exact_regeneration": "visual-reproduction.json",
+  "packaged_CLI_actual_model_export": "package-cli-audit.json",
+  "main_tests": {
+    "run": 260,
+    "expected_skips": 44
+  },
+  "portable_torch_tests": {
+    "run": 10,
+    "skipped": 0
+  },
+  "limits": "CPU float32 only; existing exposed physical fields; no improved recall/new text; no independent-pixel statistics. One timing measurement per case."
+}

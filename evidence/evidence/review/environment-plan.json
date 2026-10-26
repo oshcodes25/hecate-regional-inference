@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-10-26T04:54:34.403646+00:00",
+  "scope": "Fresh software environment for reproduction, not a new algorithm or model experiment. Existing environment remains unchanged.",
+  "environment": ".venv-roi-review",
+  "python": "3.12.15",
+  "package_source": "https://pypi.org/simple",
+  "caps": {
+    "wheel_bytes": 536870912,
+    "download_seconds": 300,
+    "inference_calls": 0
+  },
+  "procedure": "Download only binary wheels for the explicitly pinned existing runtime dependencies, with no automatic network retries. Hash each wheel, install from local wheels into the new virtual environment, run pip check and isolated verification/synthetic tests. Real model replay belongs to a separately registered powered benchmark.",
+  "stop": "Preserve failed downloads/installations; do not silently change package versions. Docker is unavailable; do not claim Docker validation."
+}

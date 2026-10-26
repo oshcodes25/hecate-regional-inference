@@ -1,0 +1,27 @@
+{
+  "registered_at": "2026-10-26T04:06:00.291597+00:00",
+  "purpose": "Verify the packaged CLI, formats and source-index sidecar, with the registered inference core unchanged. No new scientific comparison or parameter selection.",
+  "checks": [
+    "All packaged file hashes and 541184 saved output values",
+    "Portable synthetic edge/batch tests",
+    "Geometry-only dry run",
+    "Invalid ROI rejected before output allocation",
+    "One real packaged CLI forward on fixed fine-resolution PHerc9B ROI, compare decoded PNG byte-for-byte with registered case0 regional NPY",
+    "Refusal to overwrite an existing output",
+    "Offline desktop/mobile viewer and all case/depth/contrast controls",
+    "Exact report/figure regeneration",
+    "ZIP CRC and verification from a separate extraction directory"
+  ],
+  "neural_case": 0,
+  "model_tiles": 4,
+  "caps": {
+    "real_cli_seconds": 120,
+    "RSS_bytes": 8589934592,
+    "new_output_bytes": 33554432,
+    "threads": 4,
+    "paid_cost": 0,
+    "downloads": 0
+  },
+  "packaged_module_sha256": "230feb5a577b65f19f1865bff1cb03431efb9c2b80b9467a39da273bbd7404a9",
+  "scientific_source": "Original frozen E079 source retained; only early CLI geometry validation added in packaged derivative."
+}

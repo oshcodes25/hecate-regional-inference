@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "source_sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+  "source_values_compared": 16777216,
+  "versions": {
+    "zarr": "2.18.7",
+    "numcodecs": "0.15.1",
+    "numpy": "2.2.6",
+    "torch": "2.8.0"
+  },
+  "cases": [
+    {
+      "format": "npy",
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-I",
+        "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-review-v2/src/hecate_roi.py",
+        "--runtime",
+        "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-review-v2/data/paired-resolution-audit/hecate-runtime-pinned.py",
+        "--spacing-um",
+        "2.4",
+        "--roi",
+        "144",
+        "144",
+        "208",
+        "208",
+        "--dry-run",
+        "--input",
+        "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-review-v2/inputs/PHerc0009B.npy"
+      ],
+      "schedule": {
+        "shape_zyx": [
+          64,
+          512,
+          512
+        ],
+        "patch_size": [
+          64,
+          256,
+          256
+        ],
+        "roi_xyxy": [
+          144,
+          144,
+          208,
+          208
+        ],
+        "stride": 128,
+        "batch_size": 1,
+        "groups": [
+          {
+            "global_start": 0,
+            "origins": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "global_start": 1,
+            "origins": [
+              [
+                0,
+                128
+              ]
+            ]
+          },
+          {
+            "global_start": 3,
+            "origins": [
+              [
+                128,
+                0
+              ]
+            ]
+          },
+          {
+            "global_start": 4,
+            "origins": [
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "full_tiles": 9,
+        "scheduled_tiles": 4,
+        "contributing_tiles": 4,
+        "read_context_xyxy": [
+          0,
+          0,
+          384,
+          384
+        ],
+        "temporary_2d_bytes": 32768,
+        "temporary_3d_bytes": 1064960,
+        "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT."
+      },
+      "stderr": ""
+    },
+    {
+      "format": "zarr",
+      "command": [
+        "/Users/mcglone/vesuvius-challenge/.venv-ink/bin/python",
+        "-I",
+        "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-review-v2/src/hecate_roi.py",
+        "--runtime",
+        "/Users/mcglone/vesuvius-challenge/submissions/hecate-regional-reader-review-v2/data/paired-resolution-audit/hecate-runtime-pinned.py",
+        "--spacing-um",
+        "2.4",
+        "--roi",
+        "144",
+        "144",
+        "208",
+        "208",
+        "--dry-run",
+        "--input",
+        "/var/folders/xj/b2jg6y113fg4vcfr6tyrg47r0000gn/T/hecate-zarr-input-fo6c7ysz/scan.zarr"
+      ],
+      "schedule": {
+        "shape_zyx": [
+          64,
+          512,
+          512
+        ],
+        "patch_size": [
+          64,
+          256,
+          256
+        ],
+        "roi_xyxy": [
+          144,
+          144,
+          208,
+          208
+        ],
+        "stride": 128,
+        "batch_size": 1,
+        "groups": [
+          {
+            "global_start": 0,
+            "origins": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "global_start": 1,
+            "origins": [
+              [
+                0,
+                128
+              ]
+            ]
+          },
+          {
+            "global_start": 3,
+            "origins": [
+              [
+                128,
+                0
+              ]
+            ]
+          },
+          {
+            "global_start": 4,
+            "origins": [
+              [
+                128,
+                128
+              ]
+            ]
+          }
+        ],
+        "full_tiles": 9,
+        "scheduled_tiles": 4,
+        "contributing_tiles": 4,
+        "read_context_xyxy": [
+          0,
+          0,
+          384,
+          384
+        ],
+        "temporary_2d_bytes": 32768,
+        "temporary_3d_bytes": 1064960,
+        "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT."
+      },
+      "stderr": ""
+    }
+  ],
+  "scope": "Actual local Zarr v2 group/array and packaged CLI dry-run. All source voxels and NPY/Zarr schedules match. No checkpoint loaded, no neural inference, no Zarr v3/cloud-I/O claim. Temporary store removed."
+}

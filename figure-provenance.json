@@ -1,0 +1,90 @@
+{
+  "scope": "Figures and tables derived from the saved scientific evidence.",
+  "source_package": "hecate-regional-reader-repeated-v3",
+  "source_archive_sha256": "ab142e4141f1543d8126536d513661a618dd601b44bd412485ea3a4c7fc0cc39",
+  "unchanged_evidence_files": 230,
+  "plan": {
+    "shape_zyx": [
+      64,
+      512,
+      512
+    ],
+    "patch_size": [
+      64,
+      256,
+      256
+    ],
+    "roi_xyxy": [
+      144,
+      144,
+      208,
+      208
+    ],
+    "stride": 128,
+    "batch_size": 1,
+    "groups": [
+      {
+        "global_start": 0,
+        "origins": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "global_start": 1,
+        "origins": [
+          [
+            0,
+            128
+          ]
+        ]
+      },
+      {
+        "global_start": 3,
+        "origins": [
+          [
+            128,
+            0
+          ]
+        ]
+      },
+      {
+        "global_start": 4,
+        "origins": [
+          [
+            128,
+            128
+          ]
+        ]
+      }
+    ],
+    "full_tiles": 9,
+    "scheduled_tiles": 4,
+    "contributing_tiles": 4,
+    "read_context_xyxy": [
+      0,
+      0,
+      384,
+      384
+    ],
+    "temporary_2d_bytes": 32768,
+    "temporary_3d_bytes": 1064960,
+    "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT."
+  },
+  "image_notes": "Saved uint8 predictions displayed directly as grayscale. CT uses the existing v3 display-normalized plane 32/64. Blue rectangles mark 256x256 model windows, orange marks the requested ROI. Storage diagrams show the recorded array extents at a common coordinate scale, not measured model RAM.",
+  "assets": {
+    "assets/crop-plan.png": "0d98a5b0144a840f2cd3826eae0c14b1cfa3b6fb8c9aaa55e79ec052b2663f57",
+    "assets/crop-storage.png": "269358b9f879304f2142d65de5a2fb16ec560bf6e5dd34c8a0b5958ed3395ca9",
+    "assets/difference.png": "ad3d92a33d5e7480ffec17b96da3df67a2e986a4bd45e6f0cd77edf3c284cd79",
+    "assets/full-plan.png": "fd28cfc34554e60ed17f0ba3a195d30b74675e3de230a184eabb009d632949fe",
+    "assets/full-storage.png": "c258f174e65c18ce120314d10b99b6415de0a0536fd8d8f9c408533ed07fa68a",
+    "assets/full.png": "ada17e84248679758e5348422618b07423530bd61797fb59312afb1261fe6af1",
+    "assets/halo.png": "ada17e84248679758e5348422618b07423530bd61797fb59312afb1261fe6af1",
+    "assets/regional-plan.png": "0d98a5b0144a840f2cd3826eae0c14b1cfa3b6fb8c9aaa55e79ec052b2663f57",
+    "assets/regional-storage.png": "28f4e96a61930b09b71c71a8004cce912caa4b91277ae72d14410ef760ce9626",
+    "assets/regional.png": "ada17e84248679758e5348422618b07423530bd61797fb59312afb1261fe6af1",
+    "assets/tight-crop.png": "7cfbc7abd509b26c64f6ce111cd3fa92a554ea34cbe6fb08e5706af83d960c2c"
+  }
+}

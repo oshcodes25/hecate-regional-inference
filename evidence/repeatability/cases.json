@@ -1,0 +1,47 @@
+[
+  {
+    "index": 0,
+    "sample": "PHerc0009B",
+    "sampling": 2.4,
+    "reverse": false,
+    "input": "inputs/PHerc0009B.npy",
+    "checkpoint_sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+    "result": "repeatability/outputs/case-00/result.json"
+  },
+  {
+    "index": 1,
+    "sample": "PHerc0500P2",
+    "sampling": 2.4,
+    "reverse": false,
+    "input": "inputs/PHerc0500P2.npy",
+    "checkpoint_sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+    "result": "repeatability/outputs/case-01/result.json"
+  },
+  {
+    "index": 2,
+    "sample": "PHerc0841",
+    "sampling": 9.6,
+    "reverse": false,
+    "input": "inputs/PHerc0841.npy",
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "result": "repeatability/outputs/case-02/result.json"
+  },
+  {
+    "index": 3,
+    "sample": "PHerc0009B",
+    "sampling": 9.6,
+    "reverse": false,
+    "input": "inputs/PHerc0009B.npy",
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "result": "repeatability/outputs/case-03/result.json"
+  },
+  {
+    "index": 4,
+    "sample": "PHerc0500P2",
+    "sampling": 9.6,
+    "reverse": true,
+    "input": "inputs/PHerc0500P2.npy",
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "result": "repeatability/outputs/case-04/result.json"
+  }
+]

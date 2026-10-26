@@ -1,0 +1,12 @@
+{
+  "completed": [],
+  "attempts": [],
+  "worker_seconds": 0.0,
+  "status": "waiting_for_power",
+  "last_power": {
+    "AC": false,
+    "battery_percent": 8,
+    "raw": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=22151267)\t8%; discharging; 0:22 remaining present: true\n\tBattery Warning: Early",
+    "lid_closed": false
+  }
+}

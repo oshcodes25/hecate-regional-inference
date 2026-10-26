@@ -1,0 +1,15 @@
+test_blank_and_edge_regions (test_hecate_roi.RuntimeEquivalenceTests.test_blank_and_edge_regions) ... ok
+test_context_batch_direction_depth_matrix (test_hecate_roi.RuntimeEquivalenceTests.test_context_batch_direction_depth_matrix) ... ok
+test_custom_stride (test_hecate_roi.RuntimeEquivalenceTests.test_custom_stride) ... ok
+test_small_padding_and_full_region (test_hecate_roi.RuntimeEquivalenceTests.test_small_padding_and_full_region) ... ok
+test_training_model_rejected (test_hecate_roi.RuntimeEquivalenceTests.test_training_model_rejected) ... ok
+test_bounds_and_coverage_exhaustively (test_hecate_roi.ScheduleTests.test_bounds_and_coverage_exhaustively) ... ok
+test_invalid_roi (test_hecate_roi.ScheduleTests.test_invalid_roi) ... ok
+test_known_tile_saving (test_hecate_roi.ScheduleTests.test_known_tile_saving) ... ok
+test_partial_end_tile_is_included (test_hecate_roi.ScheduleTests.test_partial_end_tile_is_included) ... ok
+test_roi_uses_original_batch_groups (test_hecate_roi.ScheduleTests.test_roi_uses_original_batch_groups) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.662s
+
+OK

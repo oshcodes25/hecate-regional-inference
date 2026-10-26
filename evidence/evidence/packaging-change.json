@@ -1,0 +1,19 @@
+{
+  "change": "CLI preflight validates the ROI before allocating output storage. No inference, scheduling or arithmetic changes.",
+  "registered_source": {
+    "path": "src/hecate_roi.py",
+    "bytes": 11362,
+    "sha256": "3e49c17c1ec5ae9d7610c4d93bbe8efb118e421d137e8ad7837f3700272942a3"
+  },
+  "packaged_source": {
+    "path": "src/hecate_roi.py",
+    "bytes": 11470,
+    "sha256": "230feb5a577b65f19f1865bff1cb03431efb9c2b80b9467a39da273bbd7404a9"
+  },
+  "AST_identical_functions": [
+    "axis_starts",
+    "schedule",
+    "predict_roi",
+    "load_runtime"
+  ]
+}

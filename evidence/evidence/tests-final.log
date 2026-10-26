@@ -1,0 +1,265 @@
+test_checkpoint_prefixes_cannot_silently_drop_tensors (test_canonical_reader_qualification.CanonicalInputTests) ... skipped 'torch unavailable'
+test_coverage_and_supported_constant_blending (test_canonical_reader_qualification.CanonicalInputTests) ... ok
+test_independent_interpolation_and_tied_auc (test_canonical_reader_qualification.CanonicalInputTests) ... ok
+test_trim_brightness_support_and_source_preservation (test_canonical_reader_qualification.CanonicalInputTests) ... ok
+test_affine_brightness_does_not_change_action (test_ct_depth_selector.CTDepthTests) ... ok
+test_cli_tiff_and_npy_outputs_are_equivalent (test_ct_depth_selector.CTDepthTests) ... ok
+test_competing_interfaces_are_not_silently_selected (test_ct_depth_selector.CTDepthTests) ... ok
+test_displaced_surfaces_move_in_both_directions (test_ct_depth_selector.CTDepthTests) ... ok
+test_flagged_regions_remain_in_composed_output (test_ct_depth_selector.CTDepthTests) ... ok
+test_flat_and_noise_are_flagged (test_ct_depth_selector.CTDepthTests) ... ok
+test_invalid_data_flagged_and_not_interpolated (test_ct_depth_selector.CTDepthTests) ... ok
+test_known_centred_surface_keeps_depth (test_ct_depth_selector.CTDepthTests) ... ok
+test_metadata_and_shape_contract (test_ct_depth_selector.CTDepthTests) ... ok
+test_reversal_requires_and_respects_metadata (test_ct_depth_selector.CTDepthTests) ... ok
+test_search_boundary_is_flagged (test_ct_depth_selector.CTDepthTests) ... ok
+test_subregion_disagreement_flags (test_ct_depth_selector.CTDepthTests) ... ok
+test_unavailable_window_flags_instead_of_clamping (test_ct_depth_selector.CTDepthTests) ... ok
+test_uncertain_depth_does_not_choose_an_arbitrary_action (test_ct_depth_selector.CTDepthTests) ... ok
+test_incomplete_depth_and_silent_dtype_conversion_rejected (test_depth_preparation.DepthPreparationTests) ... ok
+test_rounding_is_mean_then_nearest_even_not_floor (test_depth_preparation.DepthPreparationTests) ... ok
+test_wide_stack_preserves_original_central21_recipe (test_depth_preparation.DepthPreparationTests) ... ok
+test_just_touching_boxes_are_not_claimed_independent (test_depth_region_geometry.PhysicalRegionTests) ... ok
+test_missing_nodes_and_out_of_canvas_do_not_supply_coordinates (test_depth_region_geometry.PhysicalRegionTests) ... ok
+test_normal_band_can_make_distinct_surfaces_share_evidence (test_depth_region_geometry.PhysicalRegionTests) ... ok
+test_xy_gap_applies_to_full_input_not_scoring_centre (test_depth_region_geometry.PhysicalRegionTests) ... ok
+test_depth_pooling_has_no_absolute_index_dependence (test_depth_window_engine.CropStageTests) ... skipped 'Run numerical stem checks in .venv-ink'
+test_fixed_stats_preserve_retained_interior_not_boundary_context (test_depth_window_engine.CropStageTests) ... skipped 'Run numerical stem checks in .venv-ink'
+test_recording_statistics_does_not_change_original_stem (test_depth_window_engine.CropStageTests) ... skipped 'Run numerical stem checks in .venv-ink'
+test_paired_identical_maps_have_zero_contrast_intervals (test_depth_window_metrics.EvaluationTests) ... ok
+test_tied_background_scores_cannot_exceed_calibration_budget (test_depth_window_metrics.EvaluationTests) ... ok
+test_unknowns_are_neither_negative_nor_positive (test_depth_window_metrics.EvaluationTests) ... ok
+test_confounded_changes_are_never_compared (test_diagnose.DiagnosticTests) ... ok
+test_duplicate_condition_rejected (test_diagnose.DiagnosticTests) ... ok
+test_empty_support_rejected (test_diagnose.DiagnosticTests) ... ok
+test_invalid_pixels_do_not_enter_contrasts (test_diagnose.DiagnosticTests) ... ok
+test_invalid_score_rejected (test_diagnose.DiagnosticTests) ... ok
+test_known_controlled_effects (test_diagnose.DiagnosticTests) ... ok
+test_shape_mismatch_rejected (test_diagnose.DiagnosticTests) ... ok
+test_stable_blank_is_not_claimed_as_ink (test_diagnose.DiagnosticTests) ... ok
+test_physical_distance_uses_actual_axis_spacing (test_hecate_boundaries.BoundaryTests) ... ok
+test_unknowns_are_excluded_and_erode_nearby_confident_labels (test_hecate_boundaries.BoundaryTests) ... ok
+test_complete_exact_neural_inventory_is_required (test_hecate_broad_analysis_launcher.BroadAnalysisLaunchTests) ... ok
+test_existing_handle_terminal_or_log_prevents_duplicate_stage (test_hecate_broad_analysis_launcher.BroadAnalysisLaunchTests) ... ok
+test_failed_or_missing_dependency_cannot_start_score_audit (test_hecate_broad_analysis_launcher.BroadAnalysisLaunchTests) ... ok
+test_requires_battery_margin_or_actual_AC_power (test_hecate_broad_batches.BroadBatchTests) ... ok
+test_resume_uses_only_exact_successful_prefix (test_hecate_broad_batches.BroadBatchTests) ... ok
+test_unknown_power_state_cannot_start_work (test_hecate_broad_batches.BroadBatchTests) ... ok
+test_independent_distance_accounts_for_unknown_and_bin_exterior (test_hecate_broad_projection.BroadProjectionTests) ... ok
+test_independent_metrics_handle_ties_without_spending_extra_false_positives (test_hecate_broad_projection.BroadProjectionTests) ... ok
+test_numpy_replay_covers_nonlinearity_support_and_both_interpolations (test_hecate_broad_projection.BroadProjectionTests) ... skipped 'Torch environment required'
+test_physical_mapping_agrees_with_native_restoration_not_grid_stretch (test_hecate_broad_projection.BroadProjectionTests) ... ok
+test_primary_mask_uses_physical_model_margin (test_hecate_broad_projection.BroadProjectionTests) ... ok
+test_scalar_overlap_checks_actual_source_voxels (test_hecate_broad_projection.BroadProjectionTests) ... ok
+test_inadequate_support_cannot_be_promoted (test_hecate_conditional_rank.ConditionalRankTests) ... ok
+test_native_residual_is_zero_and_constant_auc_is_half (test_hecate_conditional_rank.ConditionalRankTests) ... ok
+test_pair_matrix_accounts_for_every_pair (test_hecate_conditional_rank.ConditionalRankTests) ... ok
+test_reversal_cannot_hide_an_opposing_development_source (test_hecate_conditional_rank.ConditionalRankTests) ... ok
+test_tail_bins_preserve_ties_and_match_independent_accumulation (test_hecate_conditional_rank.ConditionalRankTests) ... ok
+test_ties_match_exhaustive_pair_count (test_hecate_conditional_rank.ConditionalRankTests) ... ok
+test_component_context_recognizes_cropped_and_complete_diagonal_components (test_hecate_context_audit.ContextAuditTests) ... ok
+test_native_coordinate_mapping_and_rejecting_misalignment (test_hecate_context_audit.ContextAuditTests) ... ok
+test_pyramid_identity_unknowns_and_nearest_expansion_discrepancies (test_hecate_context_audit.ContextAuditTests) ... ok
+test_factorial_marginal_effects_sum_to_total_with_interaction (test_hecate_context_factorial.ContextFactorialTests) ... ok
+test_shared_physical_band_excludes_different_planes_at_each_end (test_hecate_context_factorial.ContextFactorialTests) ... ok
+test_swapping_weights_changes_the_selected_evidence_without_changing_logits (test_hecate_context_factorial.ContextFactorialTests) ... ok
+test_connected_components_distinguish_unknown_and_canvas_edges (test_hecate_coverage_inventory.CoverageInventoryTests) ... ok
+test_full_containment_not_component_intersection (test_hecate_coverage_inventory.CoverageInventoryTests) ... ok
+test_raw_chunk_costs_and_physical_resolution (test_hecate_coverage_inventory.CoverageInventoryTests) ... ok
+test_reserved_labels_cannot_affect_analysis (test_hecate_coverage_inventory.CoverageInventoryTests) ... ok
+test_surface_separation_alone_is_insufficient (test_hecate_coverage_inventory.CoverageInventoryTests) ... ok
+test_triple_search_escapes_a_greedy_dead_end (test_hecate_coverage_inventory.CoverageInventoryTests) ... ok
+test_controls_preserve_histogram_and_use_only_CT_support (test_hecate_ct_occupancy.OccupancyGeometryTests) ... ok
+test_exact_voxel_cell_replay_for_anisotropic_shifted_CT (test_hecate_ct_occupancy.OccupancyGeometryTests) ... ok
+test_fractional_footprints_trim_depth_and_preserve_tile_alignment (test_hecate_ct_occupancy.OccupancyGeometryTests) ... ok
+test_gate_requires_gain_beyond_every_control_without_specimen_harm (test_hecate_ct_occupancy.OccupancyGeometryTests) ... ok
+test_otsu_excludes_zeros_and_selects_first_tied_partition (test_hecate_ct_occupancy.OccupancyGeometryTests) ... ok
+test_constant_weight_and_all_zero_fallback_recover_native (test_hecate_ct_occupancy.OccupancyProjectionTests) ... skipped 'Use .venv-ink for Torch occupancy projection'
+test_independent_replay_and_joint_depth_permutation (test_hecate_ct_occupancy.OccupancyProjectionTests) ... skipped 'Use .venv-ink for Torch occupancy projection'
+test_invalid_inputs_and_blank_support (test_hecate_ct_occupancy.OccupancyProjectionTests) ... skipped 'Use .venv-ink for Torch occupancy projection'
+test_constant_fields_and_invalid_physical_coverage (test_hecate_ct_rounding.CTRoundingTests) ... ok
+test_single_rounding_replay_matches_sparse_overlap_on_dense_uint8_data (test_hecate_ct_rounding.CTRoundingTests) ... ok
+test_conditional_auc_matches_explicit_tied_pair_comparisons (test_hecate_depth_agreement.DepthAgreementTests) ... ok
+test_identical_physical_peak_survives_different_window_indices (test_hecate_depth_agreement.DepthAgreementTests) ... ok
+test_uniform_profiles_cannot_benefit_from_correct_alignment (test_hecate_depth_agreement.DepthAgreementTests) ... ok
+test_inconsistent_overlaps_are_reported_without_becoming_ink_confidence (test_hecate_depth_fusion.DepthFusionTests) ... ok
+test_recovers_known_global_field_from_locally_normalized_windows (test_hecate_depth_fusion.DepthFusionTests) ... ok
+test_rejects_invalid_or_disconnected_inputs (test_hecate_depth_fusion.DepthFusionTests) ... ok
+test_single_window_preserves_original_readout (test_hecate_depth_fusion.DepthFusionTests) ... ok
+test_window_order_and_global_coordinate_translation_invariance (test_hecate_depth_fusion.DepthFusionTests) ... ok
+test_auc_ties_and_reversed_ranking (test_hecate_depth_profiles.DepthProfileTests) ... ok
+test_decoder_centres_map_through_physical_resampling (test_hecate_depth_profiles.DepthProfileTests) ... ok
+test_overlap_counts_once_and_selects_by_geometry_not_labels (test_hecate_depth_profiles.DepthProfileTests) ... ok
+test_peak_agreement_rejects_isolated_jump_and_invalid_edges (test_hecate_depth_profiles.DepthProfileTests) ... ok
+test_extra_500p2_native_context_is_not_extra_reference_area (test_hecate_development_ct.DevelopmentCTTests) ... ok
+test_halo_checks_neighbouring_native_pixels_and_every_depth (test_hecate_development_ct.DevelopmentCTTests) ... ok
+test_native_reference_grid_does_not_stretch_with_model_input (test_hecate_development_ct.DevelopmentCTTests) ... ok
+test_rejects_unregistered_depth_dtype_and_size (test_hecate_development_ct.DevelopmentCTTests) ... ok
+test_unknowns_stay_excluded_and_unsupported_ink_is_not_background (test_hecate_development_ct.DevelopmentCTTests) ... ok
+test_exact_uint8_and_immutable_source (test_hecate_export_precision.ExportPrecisionTests) ... ok
+test_float16_underflow_is_not_lossless (test_hecate_export_precision.ExportPrecisionTests) ... ok
+test_float32_retains_weak_score (test_hecate_export_precision.ExportPrecisionTests) ... ok
+test_ties_and_unknowns (test_hecate_export_precision.ExportPrecisionTests) ... ok
+test_validation (test_hecate_export_precision.ExportPrecisionTests) ... ok
+test_excluded_specimen_cannot_change_training_scaling (test_hecate_feature_head.FeatureProtocolTests) ... ok
+test_gate_retains_strong_controls_and_interior_loss (test_hecate_feature_head.FeatureProtocolTests) ... ok
+test_independent_full_pipeline_gradient_matches_finite_differences (test_hecate_feature_head.FeatureProtocolTests) ... ok
+test_physical_interpolation_adjoint_includes_nearest_boundaries (test_hecate_feature_head.FeatureProtocolTests) ... ok
+test_shuffling_preserves_supervised_classes_and_exclusions (test_hecate_feature_head.FeatureProtocolTests) ... ok
+test_autograd_agrees_with_independent_reverse_interpolation (test_hecate_feature_head.TorchFeatureTests) ... skipped 'Use ink environment for differentiable classifier tests'
+test_small_fit_converges_without_changing_features (test_hecate_feature_head.TorchFeatureTests) ... skipped 'Use ink environment for differentiable classifier tests'
+test_constant_is_unqualified_and_native (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_direct_tensor_replay (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_gate_rejects_false_positives_or_unmatched_geometry (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_independent_tied_threshold_and_auc (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_isotropic_centre_falls_back (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_partial_auc_known_endpoints (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_perpendicular_plies_stop_component (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_rotation_covariance (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_width_control_preserves_counts_and_anchor (test_hecate_fibre_projection.FibreProjectionTests) ... ok
+test_no_eligible_candidate_stops_instead_of_relaxing (test_hecate_fine_preparation.FineCropSelectionTests) ... ok
+test_unknown_does_not_become_background_eligibility (test_hecate_fine_preparation.FineCropSelectionTests) ... ok
+test_uses_label_eligibility_and_fixed_geometric_tie_break (test_hecate_fine_preparation.FineCropSelectionTests) ... ok
+test_depth_reduction_precedes_xy_interpolation (test_hecate_fine_projection.FineProjectionTests) ... skipped 'Torch unavailable in main environment'
+test_empty_original_column_is_zeroed_after_interpolation (test_hecate_fine_projection.FineProjectionTests) ... skipped 'Torch unavailable in main environment'
+test_mesh_centred_64_plane_sampling_has_fine_physical_pitch (test_hecate_fine_projection.FineSamplingTests) ... ok
+test_capture_is_exact_and_own_transport_reconstructs_native (test_hecate_groupnorm_context.GroupNormContextTests) ... skipped 'Torch unavailable in main environment'
+test_norm_context_restores_forward_after_failure (test_hecate_groupnorm_context.GroupNormContextTests) ... skipped 'Torch unavailable in main environment'
+test_transferred_statistics_do_not_adapt_to_recipient_shift (test_hecate_groupnorm_context.GroupNormContextTests) ... skipped 'Torch unavailable in main environment'
+test_fixed_physical_plane_maps_to_correct_trained_index (test_hecate_input_context.InputContextTests) ... ok
+test_out_of_source_shift_is_rejected_without_padding (test_hecate_input_context.InputContextTests) ... ok
+test_shared_world_samples_survive_positive_and_negative_shifts (test_hecate_input_context.InputContextTests) ... ok
+test_box_band_preserves_constants_and_linear_depth_ramps (test_hecate_layer_band.LayerBandTests) ... ok
+test_depth_reversal_preserves_readout_and_blank_support_abstains (test_hecate_layer_band.LayerBandTests) ... ok
+test_robust_plane_ignores_sparse_wrong_layer_anchors (test_hecate_layer_band.LayerBandTests) ... ok
+test_native_crop_rejects_extrapolation (test_hecate_masked_ct.MaskedCTTests) ... ok
+test_native_crop_stitches_partial_chunk_intersections (test_hecate_masked_ct.MaskedCTTests) ... ok
+test_zero_in_any_depth_invalidates_the_conservative_reference_footprint (test_hecate_masked_ct.MaskedCTTests) ... ok
+test_only_a_confirmed_missing_key_can_use_the_recorded_zero_fill (test_hecate_masked_ct_sparse.SparseCTTests) ... ok
+test_undefined_or_different_fill_is_rejected (test_hecate_masked_ct_sparse.SparseCTTests) ... ok
+test_adjacent_development_contexts_are_not_called_independent (test_hecate_masked_development.MaskedDevelopmentTests) ... ok
+test_bad_geometry_is_rejected_before_labels (test_hecate_masked_development.MaskedDevelopmentTests) ... ok
+test_exclusions_precede_any_reference_read (test_hecate_masked_development.MaskedDevelopmentTests) ... ok
+test_independent_geometry_matches_and_detects_touch (test_hecate_masked_development.MaskedDevelopmentTests) ... ok
+test_source_widths_and_physical_mapping (test_hecate_masked_development.MaskedDevelopmentTests) ... ok
+test_unique_chunk_cost_counts_shared_objects_once (test_hecate_masked_development.MaskedDevelopmentTests) ... ok
+test_unknown_ink_cannot_become_a_positive_or_background (test_hecate_masked_development.MaskedDevelopmentTests) ... ok
+test_crossing_float32_exponent_boundary_rounds_exactly (test_hecate_masked_development_precision.PrecisionAuditTests) ... ok
+test_one_additional_float32_step_is_rejected (test_hecate_masked_development_precision.PrecisionAuditTests) ... ok
+test_small_separation_is_checked_before_rounding (test_hecate_masked_development_precision.PrecisionAuditTests) ... ok
+test_CT_cost_deduplicates_overlap_and_distinguishes_compression (test_hecate_masked_tiles.MaskedTileTests) ... ok
+test_native_extent_covers_a_fixed_physical_input (test_hecate_masked_tiles.MaskedTileTests) ... ok
+test_partial_source_edges_do_not_become_complete_inputs (test_hecate_masked_tiles.MaskedTileTests) ... ok
+test_sparse_known_bins_are_usable_but_unknown_ink_is_not_counted (test_hecate_masked_tiles.MaskedTileTests) ... ok
+test_adapter_redirects_only_completed_export_prerequisite (test_hecate_nonlinear_execution.ExecutionAdapterTests) ... ok
+test_adapter_rejects_incomplete_export (test_hecate_nonlinear_execution.ExecutionAdapterTests) ... ok
+test_affine_commutation_and_zero_support (test_hecate_nonlinear_projection.MechanismTests) ... skipped 'Torch environment required'
+test_native_initialization_and_independent_numpy (test_hecate_nonlinear_projection.MechanismTests) ... skipped 'Torch environment required'
+test_nonlinearity_can_distinguish_same_average (test_hecate_nonlinear_projection.MechanismTests) ... skipped 'Torch environment required'
+test_reference_point_kernel_matches_full_output (test_hecate_nonlinear_projection.MechanismTests) ... skipped 'Torch environment required'
+test_training_gradient_numeric (test_hecate_nonlinear_projection.MechanismTests) ... skipped 'Torch environment required'
+test_sampler_never_invents_supervision (test_hecate_nonlinear_projection.SamplingTests) ... ok
+test_shuffle_keeps_physical_class_totals (test_hecate_nonlinear_projection.SamplingTests) ... ok
+test_invalid_attention_cannot_silently_change_ink_scores (test_hecate_page_head.FrozenFeatureTests) ... skipped 'Use .venv-ink for classifier tests'
+test_linear_head_commutes_with_depth_projection_and_empty_support (test_hecate_page_head.FrozenFeatureTests) ... skipped 'Use .venv-ink for classifier tests'
+test_separate_head_changes_page_without_mutating_voxel_evidence (test_hecate_page_head.FrozenFeatureTests) ... skipped 'Use .venv-ink for classifier tests'
+test_gate_retains_canonical_and_preprocessing_controls (test_hecate_page_head.HeadControlTests) ... ok
+test_norm_control_changes_size_but_keeps_direction (test_hecate_page_head.HeadControlTests) ... ok
+test_contrasts_close_without_claiming_causal_percentages (test_hecate_phase_factorial.PhaseFactorialTests) ... ok
+test_gate_requires_both_paths_and_auc_not_only_favourable_average (test_hecate_phase_factorial.PhaseFactorialTests) ... ok
+test_shared_physical_grid_and_repeated_phase (test_hecate_phase_factorial.PhaseFactorialTests) ... ok
+test_gate_requires_stronger_baseline_and_each_specimen_nonregression (test_hecate_pool_transfer.PoolTransferTests) ... ok
+test_independent_depth_replay_matches_frozen_control (test_hecate_pool_transfer.PoolTransferTests) ... ok
+test_tile_coverage_includes_short_final_stride (test_hecate_pool_transfer.PoolTransferTests) ... ok
+test_partial_roc_ties_and_perfect_ranking (test_hecate_projection.MetricTests) ... ok
+test_unknown_pixels_do_not_change_metric (test_hecate_projection.MetricTests) ... ok
+test_depth_permutation_invariance_for_matched_entries (test_hecate_projection.ProjectionTests) ... skipped 'torch absent from main environment; use .venv-ink'
+test_empty_support_is_finite_and_has_zero_weight (test_hecate_projection.ProjectionTests) ... skipped 'torch absent from main environment; use .venv-ink'
+test_invalid_depth_cannot_supply_a_false_maximum (test_hecate_projection.ProjectionTests) ... skipped 'torch absent from main environment; use .venv-ink'
+test_native_is_weighted_logit_not_weighted_probability (test_hecate_projection.ProjectionTests) ... skipped 'torch absent from main environment; use .venv-ink'
+test_anisotropic_realistic_spacing_and_coordinate_roundtrip (test_hecate_projection.SamplingTests) ... ok
+test_box_overlap_conserves_constant_and_aligned_pooling (test_hecate_projection.SamplingTests) ... ok
+test_outside_source_is_rejected (test_hecate_projection.SamplingTests) ... ok
+test_context_groups_cannot_omit_or_duplicate_a_patch (test_hecate_reader_overlap.ReaderOverlapTests) ... ok
+test_duplicated_readers_add_no_new_information (test_hecate_reader_overlap.ReaderOverlapTests) ... ok
+test_gate_requires_two_sources_and_better_precision_than_misalignment (test_hecate_reader_overlap.ReaderOverlapTests) ... ok
+test_interior_boundary_is_inclusive_and_unknown_detections_never_count (test_hecate_reader_overlap.ReaderOverlapTests) ... ok
+test_shared_and_complementary_misses_with_explicit_false_positive_cost (test_hecate_reader_overlap.ReaderOverlapTests) ... ok
+test_gate_cannot_ignore_strong_flat_learning_or_a_regressing_specimen (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_gradient_matches_central_difference_and_stays_finite_at_large_logits (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_held_out_changes_cannot_change_trained_parameters (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_physical_sampling_matches_known_affine_field_and_independent_bilinear (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_scaler_uses_equal_specimen_moments_and_handles_constant_features (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_sham_permutation_preserves_class_counts_inside_each_specimen (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_synthetic_extra_depth_information_is_detectable_with_flat_scores_identical (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_weights_balance_specimens_and_classes_despite_sample_imbalance (test_hecate_readout_probe.ReadoutProbeTests) ... ok
+test_execution_amendment_preserves_science_code_sources_and_memory_cap (test_hecate_readout_resume.ReadoutResumeTests) ... ok
+test_bands_partition_counts_without_rechoosing_threshold (test_hecate_residual_errors.ResidualErrorsTests) ... ok
+test_entirely_known_single_class_still_has_finite_outside_boundary (test_hecate_residual_errors.ResidualErrorsTests) ... ok
+test_physical_distances_match_brute_force_with_unknowns_and_anisotropy (test_hecate_residual_errors.ResidualErrorsTests) ... ok
+test_blank_and_edge_regions (test_hecate_roi.RuntimeEquivalenceTests) ... skipped 'Torch is optional in the main research environment'
+test_context_batch_direction_depth_matrix (test_hecate_roi.RuntimeEquivalenceTests) ... skipped 'Torch is optional in the main research environment'
+test_custom_stride (test_hecate_roi.RuntimeEquivalenceTests) ... skipped 'Torch is optional in the main research environment'
+test_small_padding_and_full_region (test_hecate_roi.RuntimeEquivalenceTests) ... skipped 'Torch is optional in the main research environment'
+test_training_model_rejected (test_hecate_roi.RuntimeEquivalenceTests) ... skipped 'Torch is optional in the main research environment'
+test_bounds_and_coverage_exhaustively (test_hecate_roi.ScheduleTests) ... ok
+test_invalid_roi (test_hecate_roi.ScheduleTests) ... ok
+test_known_tile_saving (test_hecate_roi.ScheduleTests) ... ok
+test_partial_end_tile_is_included (test_hecate_roi.ScheduleTests) ... ok
+test_roi_uses_original_batch_groups (test_hecate_roi.ScheduleTests) ... ok
+test_half_pixel_resize_preserves_affine_interior_and_clamped_edges (test_hecate_spatial_order.SpatialAuditTests) ... ok
+test_known_logit_resize_control_can_reject_false_depth_claim (test_hecate_spatial_order.SpatialAuditTests) ... ok
+test_blank_support_is_zero_and_invalid_attention_is_rejected (test_hecate_spatial_order.SpatialOrderTests) ... skipped 'Use .venv-ink for Torch spatial-order checks'
+test_constant_attention_or_logits_commute_before_sigmoid (test_hecate_spatial_order.SpatialOrderTests) ... skipped 'Use .venv-ink for Torch spatial-order checks'
+test_crossed_depth_fields_change_readout_and_depth_permutation_does_not (test_hecate_spatial_order.SpatialOrderTests) ... skipped 'Use .venv-ink for Torch spatial-order checks'
+test_numpy_replay_matches_all_three_distinct_readouts (test_hecate_spatial_order.SpatialOrderTests) ... skipped 'Use .venv-ink for Torch spatial-order checks'
+test_block_size_invariance_including_partial_edges (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_compressed_CT_size_is_not_reported_as_known_transfer_cost (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_coverage_bins_count_exact_rectangles (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_exact_XY_triple_escapes_a_greedy_trap (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_graph_and_independent_flood_fill_match_dense_components (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_graph_connections_do_not_wrap_rows (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_unknown_neighbours_and_canvas_edges_are_unsafe (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_whole_components_form_provisional_groups_without_claiming_geometry (test_hecate_training_labels.TrainingLabelTests) ... ok
+test_loss_reduction_does_not_imply_ranking_improvement (test_hecate_training_rank_audit.RankingDiagnosisTests) ... ok
+test_transfer_requires_ranking_gain_and_false_positive_control (test_hecate_training_rank_audit.RankingDiagnosisTests) ... ok
+test_completed_requires_real_artifacts_and_measurements (test_lab.ResearchTests) ... ok
+test_deterministic_geometry_does_not_need_a_fictitious_seed (test_lab.ResearchTests) ... ok
+test_failed_refresh_preserves_previous_snapshot (test_lab.ResearchTests) ... ok
+test_import_rejects_truncated_tree_and_file_cap (test_lab.ResearchTests) ... ok
+test_local_measurement_cannot_be_a_source_claim_only (test_lab.ResearchTests) ... ok
+test_new_plan_does_not_claim_an_experiment_ran (test_lab.ResearchTests) ... ok
+test_path_traversal_and_symlink_escape_are_rejected (test_lab.ResearchTests) ... ok
+test_ready_requires_a_split_and_model_provenance (test_lab.ResearchTests) ... ok
+test_search_detects_cache_tampering (test_lab.ResearchTests) ... ok
+test_sync_pins_files_and_does_not_execute_them (test_lab.ResearchTests) ... ok
+test_known_asymmetric_field_keeps_registered_coordinates (test_local_pilot.PilotAdapterTests) ... skipped 'Use .venv-ink for the numerical inference adapter'
+test_nonfinite_model_output_is_rejected (test_local_pilot.PilotAdapterTests) ... skipped 'Use .venv-ink for the numerical inference adapter'
+test_wrong_depth_is_rejected (test_local_pilot.PilotAdapterTests) ... skipped 'Use .venv-ink for the numerical inference adapter'
+test_equivalence_to_official_including_zero_mad_fallback (test_normalization_control.NormalizationControlTests) ... skipped 'Use .venv-ink for numerical normalization checks'
+test_fixed_statistics_are_not_refitted_to_new_content (test_normalization_control.NormalizationControlTests) ... skipped 'Use .venv-ink for numerical normalization checks'
+test_sequence_checks_missing_and_extra_tiles (test_normalization_control.NormalizationControlTests) ... skipped 'Use .venv-ink for numerical normalization checks'
+test_independent_float32_phase_matches_published_window (test_page_head_hann.HannArithmeticTests) ... skipped 'Use ink environment for published Torch Hann comparison'
+test_rounded_phase_prevents_large_overlap_edge_discrepancy (test_page_head_hann.HannArithmeticTests) ... skipped 'Use ink environment for published Torch Hann comparison'
+test_affine_xyz_round_trip_with_rotation_and_scale (test_paired_scan_check.PairGeometryTests) ... ok
+test_chunk_boundary_is_half_open (test_paired_scan_check.PairGeometryTests) ... ok
+test_grid_and_bounds_preserve_xyz_zyx_distinction (test_paired_scan_check.PairGeometryTests) ... ok
+test_ncc_ignores_intensity_scale_but_rejects_empty_signal (test_paired_scan_check.PairGeometryTests) ... ok
+test_rejects_coplanar_landmarks (test_paired_scan_check.PairGeometryTests) ... ok
+test_download_checksum_mismatch_is_rejected (test_pherc343.MeshTests) ... ok
+test_geometry_changes_are_detected (test_pherc343.MeshTests) ... ok
+test_header_changes_are_separate_from_geometry (test_pherc343.MeshTests) ... ok
+test_archival_cannot_replace_output_or_existing_archive (test_resume_hecate_broad_projection.BroadContinuationTests) ... ok
+test_empty_failure_archive_preserves_directory_identity (test_resume_hecate_broad_projection.BroadContinuationTests) ... ok
+test_known_open_lid_and_existing_power_margin_are_both_required (test_resume_hecate_broad_projection.BroadContinuationTests) ... ok
+test_only_the_exact_qualified_failure_is_allowed (test_resume_hecate_broad_projection.BroadContinuationTests) ... ok
+test_successful_terminal_record_requires_successful_return (test_resume_hecate_broad_projection.BroadContinuationTests) ... ok
+test_complete_receipts_are_not_downloaded_again (test_resume_hecate_development_ct.DevelopmentContinuationTests) ... ok
+test_metadata_and_local_path_are_not_interchangeable (test_resume_hecate_development_ct.DevelopmentContinuationTests) ... ok
+test_power_precondition_rejects_battery_before_work (test_resume_hecate_development_ct.DevelopmentContinuationTests) ... ok
+test_rejects_duplicate_wrong_url_and_unreceipted_bytes (test_resume_hecate_development_ct.DevelopmentContinuationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 260 tests in 2.739s
+
+OK (skipped=44)

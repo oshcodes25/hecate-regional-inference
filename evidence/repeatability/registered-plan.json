@@ -1,0 +1,182 @@
+{
+  "registered_at": "2026-10-26T05:00:45.201792+00:00",
+  "cases": [
+    {
+      "index": 0,
+      "sample": "PHerc0009B",
+      "input": {
+        "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ct.npy",
+        "sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+        "bytes": 16777344
+      },
+      "sampling": 2.4,
+      "reverse": false,
+      "checkpoint": {
+        "path": "data/models/hecate/hecate_2.4um.pth",
+        "sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+        "bytes": 522656918
+      },
+      "regions": [
+        "centre"
+      ],
+      "worker_seconds": 600
+    },
+    {
+      "index": 1,
+      "sample": "PHerc0500P2",
+      "input": {
+        "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+        "sha256": "ac966d6527c028613b6285106989384532b51569151f0ccc0274c7930d816f29",
+        "bytes": 14258304
+      },
+      "sampling": 2.4,
+      "reverse": false,
+      "checkpoint": {
+        "path": "data/models/hecate/hecate_2.4um.pth",
+        "sha256": "fa2de3827ebd247ff2d33df1b6f899ea79d5269036cf16765997c62f0e9988c7",
+        "bytes": 522656918
+      },
+      "regions": [
+        "centre"
+      ],
+      "worker_seconds": 600
+    },
+    {
+      "index": 2,
+      "sample": "PHerc0841",
+      "input": {
+        "path": "data/hecate-fine-projection/prepared/pherc0841-development/ct.npy",
+        "sha256": "b18d22c3c52e5ede2a5d27b24f2a8a45b6caa597a0cb855eea28fa8dfdc8d356",
+        "bytes": 16777344
+      },
+      "sampling": 9.6,
+      "reverse": false,
+      "checkpoint": {
+        "path": "data/models/hecate/hecate_9.6um.pth",
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+        "bytes": 522576086
+      },
+      "regions": [
+        "edge",
+        "centre",
+        "large"
+      ],
+      "worker_seconds": 300
+    },
+    {
+      "index": 3,
+      "sample": "PHerc0009B",
+      "input": {
+        "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ct.npy",
+        "sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+        "bytes": 16777344
+      },
+      "sampling": 9.6,
+      "reverse": false,
+      "checkpoint": {
+        "path": "data/models/hecate/hecate_9.6um.pth",
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+        "bytes": 522576086
+      },
+      "regions": [
+        "edge",
+        "centre",
+        "large"
+      ],
+      "worker_seconds": 300
+    },
+    {
+      "index": 4,
+      "sample": "PHerc0500P2",
+      "input": {
+        "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+        "sha256": "ac966d6527c028613b6285106989384532b51569151f0ccc0274c7930d816f29",
+        "bytes": 14258304
+      },
+      "sampling": 9.6,
+      "reverse": true,
+      "checkpoint": {
+        "path": "data/models/hecate/hecate_9.6um.pth",
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+        "bytes": 522576086
+      },
+      "regions": [
+        "edge",
+        "centre",
+        "large"
+      ],
+      "worker_seconds": 300
+    }
+  ],
+  "files": [
+    {
+      "path": "src/measure_hecate_regions.py",
+      "sha256": "c6849cb1ec42ce30d084b771470c7d4e7df795e6aa581840a2fa3b7ad2708b6c",
+      "bytes": 6649
+    },
+    {
+      "path": "src/hecate_repeatability.py",
+      "sha256": "6dcef93e15d2437ad9475ad2411474936a4602d8be6f4e6b5d9605c6a9861388",
+      "bytes": 12303
+    },
+    {
+      "path": "tests/test_hecate_region_measurement.py",
+      "sha256": "e82dd740cec4dd2b2316285ebfbd845bcdcac110f3a4541046d533c7aec39803",
+      "bytes": 1066
+    },
+    {
+      "path": "src/hecate_projection.py",
+      "sha256": "36373cb22d57e13780591556ca97ce8cce9abea4b7695ef24ef60deb298b452c",
+      "bytes": 25500
+    },
+    {
+      "path": "submissions/hecate-context-preserving-roi-20261026/src/hecate_roi.py",
+      "sha256": "230feb5a577b65f19f1865bff1cb03431efb9c2b80b9467a39da273bbd7404a9",
+      "bytes": 11470
+    },
+    {
+      "path": "data/paired-resolution-audit/hecate-runtime-pinned.py",
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+      "bytes": 22462
+    },
+    {
+      "path": "runs/hecate-submission-strengthening/tests-before-registration.log",
+      "sha256": "b8efeae94f2da082685d2f6cceaed204e84cc3297e69650e0f631e4984ff2595",
+      "bytes": 30272
+    },
+    {
+      "path": "runs/hecate-submission-strengthening/requirements-review.lock",
+      "sha256": "375b11ba8511b5290c2292292843e74806aad4631cbe0a2011be3dbcb171a38c",
+      "bytes": 178
+    }
+  ],
+  "question": "Do the Hecate regional outputs and resource benefits repeat in a clean environment, including a correctly selected surrounding-context crop as a competitive baseline?",
+  "baseline": "Unmodified pinned Hecate full-field prediction. Stronger alternative: independently enumerate the full-grid tiles intersecting the requested ROI, crop their bounding context, run unmodified Hecate, then crop its output. All methods use CPU fp32,batch1,default stride and unchanged weights.",
+  "comparison": "Existing frozen regional API, three balanced-order repeats per case/region; two fine-resolution central cases and edge/centre/large requests on three coarse-resolution specimens. No new algorithm fitting.",
+  "metric": "Every saved output value against corresponding full-field prediction; repeat equality; model calls; exact temporary accumulator bytes; paired full/ROI and halo/ROI time ratios, median/min/max of three repetitions. No pixel-independence or hardware-population confidence interval.",
+  "success_condition": "All regional and correctly cropped-context outputs match full-field outputs exactly in every repeat. Median paired full/ROI speedup >=1.5 in both fine central cases and all three coarse central cases. For small requests, regional temporary arrays at least16x smaller than context-crop arrays and median ROI/context-crop runtime <=1.25. Large requests are a disclosed sensitivity test, with no promised speedup.",
+  "stop_condition": "Preserve failures and all measurements. No region/stride/direction/threshold adjustment or omitted slow trials. If context cropping matches speed, explicitly limit the novelty/performance claim; do not credit the regional API with inventing existing context selection.",
+  "split": "Three existing, physically separate CT fields, all previously exposed research data. No labels or reserved final regions; software equivalence only, not fresh reading validation.",
+  "predecessors": [
+    "E079 was a one-timing CPU demonstration against full inference and a naive context-dropping crop. It did not measure a careful context crop.",
+    "Global-grid/halo preservation already has the villa#1247 predecessor. A minimal aligned context crop can implement the same idea with the original Hecate runtime; this is the stronger competing explanation.",
+    "Existing Hecate fast-path and paired-feature optimizations are credited. This study does not compare GPU implementations or establish superiority over all optimized readers."
+  ],
+  "competing_explanations": [
+    "Regional software preserves full-field results with repeatable time and temporary-storage savings.",
+    "The single-run speedup is unstable or the context-crop alternative provides the same compute reduction; the additional contribution is automation and smaller output accumulation.",
+    "Large regions need nearly all tiles, so a small-ROI speedup does not generalize to full-scroll reading."
+  ],
+  "scope": "A stronger reproducibility test of existing software, not an ink-accuracy or new-text experiment.",
+  "resources": {
+    "total_worker_seconds": 2400,
+    "RSS_bytes": 8589934592,
+    "output_bytes": 67108864,
+    "threads": 4,
+    "data_downloads": 0,
+    "fits": 0,
+    "paid_cost": 0
+  },
+  "environment": "Fresh .venv-roi-review Python3.12.15, pinned existing dependencies from hashed wheels; no SciPy or workspace imports in the model worker.",
+  "operational": "Require AC power and known-open lid before and during timed workers. Preserve partial artifacts and stop on a power/sleep/resource failure. A clean waiting-for-power state can resume; a failed worker cannot automatically retry."
+}

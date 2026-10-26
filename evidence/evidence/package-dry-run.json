@@ -1,0 +1,70 @@
+{
+  "shape_zyx": [
+    64,
+    512,
+    512
+  ],
+  "patch_size": [
+    64,
+    256,
+    256
+  ],
+  "roi_xyxy": [
+    144,
+    144,
+    208,
+    208
+  ],
+  "stride": 128,
+  "batch_size": 1,
+  "groups": [
+    {
+      "global_start": 0,
+      "origins": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "global_start": 1,
+      "origins": [
+        [
+          0,
+          128
+        ]
+      ]
+    },
+    {
+      "global_start": 3,
+      "origins": [
+        [
+          128,
+          0
+        ]
+      ]
+    },
+    {
+      "global_start": 4,
+      "origins": [
+        [
+          128,
+          128
+        ]
+      ]
+    }
+  ],
+  "full_tiles": 9,
+  "scheduled_tiles": 4,
+  "contributing_tiles": 4,
+  "read_context_xyxy": [
+    0,
+    0,
+    384,
+    384
+  ],
+  "temporary_2d_bytes": 32768,
+  "temporary_3d_bytes": 1064960,
+  "scope": "Counts include blank tiles. Preserve complete original batch groups; actual neural tile count can be lower for empty CT."
+}

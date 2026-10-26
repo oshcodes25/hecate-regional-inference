@@ -1,0 +1,281 @@
+{
+  "status": "passed",
+  "offline": true,
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "requests": 11,
+    "figureDecoded": true
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "checks": [
+    {
+      "request": 0,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 0,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 0,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 0,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 1,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 1,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 1,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 1,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 2,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 2,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 2,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 2,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 3,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 3,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 3,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 3,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 4,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 4,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 4,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 4,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 5,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 5,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 5,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 5,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 6,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 6,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 6,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 6,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 7,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 7,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 7,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 7,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 8,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 8,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 8,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 8,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 9,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 9,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 9,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 9,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 10,
+      "ceiling": 255,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 10,
+      "ceiling": 255,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 10,
+      "ceiling": 32,
+      "difference": false,
+      "allPredictionPixelsChecked": true
+    },
+    {
+      "request": 10,
+      "ceiling": 32,
+      "difference": true,
+      "allPredictionPixelsChecked": true
+    }
+  ],
+  "exceptions": []
+}

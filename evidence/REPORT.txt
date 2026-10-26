@@ -1,0 +1,14 @@
+The registered real-data checks passed. The primary two-case geometric-mean CPU speedup was 2.24×.
+
+Software correctness and efficiency only. The full-surface prediction is an implementation reference, not ground-truth ink. Does not establish better ink recall, a new detector, new text or independent checkpoint generalization.
+
+Two physically distinct existing real CT fields from PHerc9B and PHerc500P2. They are previously exposed research fields, NOT fresh ink-discovery validation. Geometry-only ROI selection was fixed before this software benchmark. No reserved reading-final regions or labels are used.
+
+PHerc0009B · 2.4 µm · 2D · forward: corrected differences=0; naïve changed=96.289%; neural tiles=4/9; wall speedup=2.296; temporary accumulator reduction=64.0.
+PHerc0500P2 · 2.4 µm · 2D · forward: corrected differences=0; naïve changed=99.951%; neural tiles=4/9; wall speedup=2.183; temporary accumulator reduction=54.4.
+PHerc0009B · 2.4 µm · 3D · reverse: corrected differences=0; naïve changed=22.535%; neural tiles=4/9; wall speedup=2.249; temporary accumulator reduction=64.0.
+PHerc0500P2 · 2.4 µm · 3D · forward: corrected differences=0; naïve changed=38.423%; neural tiles=4/9; wall speedup=2.435; temporary accumulator reduction=54.4.
+PHerc0009B · 9.6 µm · 2D · forward: corrected differences=0; naïve changed=94.141%; neural tiles=4/9; wall speedup=2.195; temporary accumulator reduction=64.0.
+PHerc0500P2 · 9.6 µm · 2D · reverse: corrected differences=0; naïve changed=100.000%; neural tiles=6/9; wall speedup=1.402; temporary accumulator reduction=54.4.
+PHerc0009B · 9.6 µm · 3D · reverse: corrected differences=0; naïve changed=43.896%; neural tiles=4/9; wall speedup=2.213; temporary accumulator reduction=64.0.
+PHerc0500P2 · 9.6 µm · 3D · reverse: corrected differences=0; naïve changed=65.479%; neural tiles=6/9; wall speedup=1.500; temporary accumulator reduction=54.4.

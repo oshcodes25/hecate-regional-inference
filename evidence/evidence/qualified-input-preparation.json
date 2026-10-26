@@ -1,0 +1,365 @@
+{
+  "regions": [
+    {
+      "id": "pherc0841-development",
+      "geometry": {
+        "source_shape_zyx": [
+          109,
+          512,
+          512
+        ],
+        "source_spacing_um_zyx": [
+          2.403,
+          2.403,
+          2.403
+        ],
+        "target_shape_zyx": [
+          64,
+          512,
+          512
+        ],
+        "target_spacing_um_zyx": [
+          2.4,
+          2.4,
+          2.4
+        ],
+        "target_first_centre_um_in_source_frame_zyx": [
+          52.962,
+          -0.0015000000000000568,
+          -0.0015000000000000568
+        ],
+        "target_z_offsets_from_mesh_um": [
+          -76.8,
+          -74.39999999999999,
+          -72.0,
+          -69.6,
+          -67.2,
+          -64.8,
+          -62.4,
+          -60.0,
+          -57.599999999999994,
+          -55.199999999999996,
+          -52.8,
+          -50.4,
+          -48.0,
+          -45.6,
+          -43.199999999999996,
+          -40.8,
+          -38.4,
+          -36.0,
+          -33.6,
+          -31.2,
+          -28.799999999999997,
+          -26.4,
+          -24.0,
+          -21.599999999999998,
+          -19.2,
+          -16.8,
+          -14.399999999999999,
+          -12.0,
+          -9.6,
+          -7.199999999999999,
+          -4.8,
+          -2.4,
+          0.0,
+          2.4,
+          4.8,
+          7.199999999999999,
+          9.6,
+          12.0,
+          14.399999999999999,
+          16.8,
+          19.2,
+          21.599999999999998,
+          24.0,
+          26.4,
+          28.799999999999997,
+          31.2,
+          33.6,
+          36.0,
+          38.4,
+          40.8,
+          43.199999999999996,
+          45.6,
+          48.0,
+          50.4,
+          52.8,
+          55.199999999999996,
+          57.599999999999994,
+          60.0,
+          62.4,
+          64.8,
+          67.2,
+          69.6,
+          72.0,
+          74.39999999999999
+        ],
+        "method": "Exact voxel-box overlap, then uint8 nearest rounding"
+      },
+      "files": {
+        "ct": {
+          "path": "data/hecate-fine-projection/prepared/pherc0841-development/ct.npy",
+          "sha256": "b18d22c3c52e5ede2a5d27b24f2a8a45b6caa597a0cb855eea28fa8dfdc8d356",
+          "bytes": 16777344
+        },
+        "ink": {
+          "path": "data/hecate-fine-projection/prepared/pherc0841-development/ink.npy",
+          "sha256": "4e5408188c522c7621346e3d72d0837ebe7db2a3abe8ababd378dc8dfec40d4d",
+          "bytes": 262272
+        },
+        "mask": {
+          "path": "data/hecate-fine-projection/prepared/pherc0841-development/mask.npy",
+          "sha256": "8439305a5fb07e214ad88e9bc3c3807ed37d9e742ac6c7674a19097072fed05c",
+          "bytes": 262272
+        }
+      },
+      "counts": {
+        "positive": 14931,
+        "negative": 132282,
+        "evaluated": 147213
+      },
+      "registered_plan_sha256": "cd32227ffb83b541b3639ea511f040dd260742dc336910f5740ea272db573fa9"
+    },
+    {
+      "id": "pherc0009b-final-test",
+      "geometry": {
+        "source_shape_zyx": [
+          109,
+          512,
+          512
+        ],
+        "source_spacing_um_zyx": [
+          2.401,
+          2.401,
+          2.401
+        ],
+        "target_shape_zyx": [
+          64,
+          512,
+          512
+        ],
+        "target_spacing_um_zyx": [
+          2.4,
+          2.4,
+          2.4
+        ],
+        "target_first_centre_um_in_source_frame_zyx": [
+          52.854,
+          -0.0004999999999999449,
+          -0.0004999999999999449
+        ],
+        "target_z_offsets_from_mesh_um": [
+          -76.8,
+          -74.39999999999999,
+          -72.0,
+          -69.6,
+          -67.2,
+          -64.8,
+          -62.4,
+          -60.0,
+          -57.599999999999994,
+          -55.199999999999996,
+          -52.8,
+          -50.4,
+          -48.0,
+          -45.6,
+          -43.199999999999996,
+          -40.8,
+          -38.4,
+          -36.0,
+          -33.6,
+          -31.2,
+          -28.799999999999997,
+          -26.4,
+          -24.0,
+          -21.599999999999998,
+          -19.2,
+          -16.8,
+          -14.399999999999999,
+          -12.0,
+          -9.6,
+          -7.199999999999999,
+          -4.8,
+          -2.4,
+          0.0,
+          2.4,
+          4.8,
+          7.199999999999999,
+          9.6,
+          12.0,
+          14.399999999999999,
+          16.8,
+          19.2,
+          21.599999999999998,
+          24.0,
+          26.4,
+          28.799999999999997,
+          31.2,
+          33.6,
+          36.0,
+          38.4,
+          40.8,
+          43.199999999999996,
+          45.6,
+          48.0,
+          50.4,
+          52.8,
+          55.199999999999996,
+          57.599999999999994,
+          60.0,
+          62.4,
+          64.8,
+          67.2,
+          69.6,
+          72.0,
+          74.39999999999999
+        ],
+        "method": "Exact voxel-box overlap, then uint8 nearest rounding"
+      },
+      "files": {
+        "ct": {
+          "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ct.npy",
+          "sha256": "c3e20ce40e26942838747ad2080f32882ee01afd2c7e95ab18313ebc8d52a6db",
+          "bytes": 16777344
+        },
+        "ink": {
+          "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/ink.npy",
+          "sha256": "f10ea1b263b2f34950edaa17b075c01e6f940b8ff8638a6e6d913e294ff655b1",
+          "bytes": 262272
+        },
+        "mask": {
+          "path": "data/hecate-fine-projection/prepared/pherc0009b-final-test/mask.npy",
+          "sha256": "cbf7f12148ccef06f9ff9b47e09fa92dbfe7f81fb607491b96fc4d418439a9d9",
+          "bytes": 262272
+        }
+      },
+      "counts": {
+        "positive": 109669,
+        "negative": 37096,
+        "evaluated": 146765
+      },
+      "registered_plan_sha256": "cd32227ffb83b541b3639ea511f040dd260742dc336910f5740ea272db573fa9"
+    },
+    {
+      "id": "pherc0500p2-final-test",
+      "geometry": {
+        "source_shape_zyx": [
+          118,
+          512,
+          512
+        ],
+        "source_spacing_um_zyx": [
+          2.215,
+          2.215,
+          2.215
+        ],
+        "target_shape_zyx": [
+          64,
+          472,
+          472
+        ],
+        "target_spacing_um_zyx": [
+          2.4,
+          2.4,
+          2.4
+        ],
+        "target_first_centre_um_in_source_frame_zyx": [
+          52.77749999999999,
+          0.09250000000000003,
+          0.09250000000000003
+        ],
+        "target_z_offsets_from_mesh_um": [
+          -76.8,
+          -74.39999999999999,
+          -72.0,
+          -69.6,
+          -67.2,
+          -64.8,
+          -62.4,
+          -60.0,
+          -57.599999999999994,
+          -55.199999999999996,
+          -52.8,
+          -50.4,
+          -48.0,
+          -45.6,
+          -43.199999999999996,
+          -40.8,
+          -38.4,
+          -36.0,
+          -33.6,
+          -31.2,
+          -28.799999999999997,
+          -26.4,
+          -24.0,
+          -21.599999999999998,
+          -19.2,
+          -16.8,
+          -14.399999999999999,
+          -12.0,
+          -9.6,
+          -7.199999999999999,
+          -4.8,
+          -2.4,
+          0.0,
+          2.4,
+          4.8,
+          7.199999999999999,
+          9.6,
+          12.0,
+          14.399999999999999,
+          16.8,
+          19.2,
+          21.599999999999998,
+          24.0,
+          26.4,
+          28.799999999999997,
+          31.2,
+          33.6,
+          36.0,
+          38.4,
+          40.8,
+          43.199999999999996,
+          45.6,
+          48.0,
+          50.4,
+          52.8,
+          55.199999999999996,
+          57.599999999999994,
+          60.0,
+          62.4,
+          64.8,
+          67.2,
+          69.6,
+          72.0,
+          74.39999999999999
+        ],
+        "method": "Exact voxel-box overlap, then uint8 nearest rounding"
+      },
+      "files": {
+        "ct": {
+          "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ct.npy",
+          "sha256": "ac966d6527c028613b6285106989384532b51569151f0ccc0274c7930d816f29",
+          "bytes": 14258304
+        },
+        "ink": {
+          "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/ink.npy",
+          "sha256": "41801b5266d93cd68f423d3dc22199120f61d8fdf64850cde3f14c4c9b7e11d7",
+          "bytes": 262272
+        },
+        "mask": {
+          "path": "data/hecate-fine-projection/prepared/pherc0500p2-final-test/mask.npy",
+          "sha256": "caa3cf39329789ee88c32272cb891bc6d881bd3b7614f3045375b0bbc5ed3112",
+          "bytes": 262272
+        }
+      },
+      "counts": {
+        "positive": 86538,
+        "negative": 60918,
+        "evaluated": 147456
+      },
+      "registered_plan_sha256": "cd32227ffb83b541b3639ea511f040dd260742dc336910f5740ea272db573fa9"
+    }
+  ],
+  "registered_plan_sha256": "cd32227ffb83b541b3639ea511f040dd260742dc336910f5740ea272db573fa9"
+}
